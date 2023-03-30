@@ -48,7 +48,7 @@ export default function Home() {
       <Head>
         <title>Stuy Schedule API</title>
         <meta name="description" content="API for Stuy Schedule app" />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
+        <link rel="icon" href="/dark-144.png" />
       </Head>
 
       <main className={styles.main}>
