@@ -16,7 +16,7 @@ export default function handler(req, res) {
       "scheduleType": "week",
       "days": [
         {
-          "day": "March 27, 2023",
+          "day": "April 3, 2023",
           "bell": {
             "scheduleType": "regular",
             "scheduleName": "Regular Schedule",
@@ -133,134 +133,12 @@ export default function handler(req, res) {
               }
             ]
           },
-          "block": "B1",
+          "block": "A",
           "testing": "Science Testing",
           "announcement": null
         },
         {
-          "day": "March 28, 2023",
-          "bell": {
-            "scheduleType": "regular",
-            "scheduleName": "Regular Schedule",
-            "schedule": [
-              {
-                "name": "Before School",
-                "startTime": "0:00",
-                "duration": 420
-              },
-              {
-                "name": "Before Period 1",
-                "startTime": "7:00",
-                "duration": 60
-              },
-              {
-                "name": "Period 1",
-                "startTime": "8:00",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 2",
-                "startTime": "8:41",
-                "duration": 4
-              },
-              {
-                "name": "Period 2",
-                "startTime": "8:45",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 3",
-                "startTime": "9:26",
-                "duration": 5
-              },
-              {
-                "name": "Period 3",
-                "startTime": "9:31",
-                "duration": 44
-              },
-              {
-                "name": "Before Period 4",
-                "startTime": "10:15",
-                "duration": 5
-              },
-              {
-                "name": "Period 4",
-                "startTime": "10:20",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 5",
-                "startTime": "11:01",
-                "duration": 5
-              },
-              {
-                "name": "Period 5",
-                "startTime": "11:06",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 6",
-                "startTime": "11:47",
-                "duration": 5
-              },
-              {
-                "name": "Period 6",
-                "startTime": "11:52",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 7",
-                "startTime": "12:33",
-                "duration": 5
-              },
-              {
-                "name": "Period 7",
-                "startTime": "12:38",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 8",
-                "startTime": "13:19",
-                "duration": 5
-              },
-              {
-                "name": "Period 8",
-                "startTime": "13:24",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 9",
-                "startTime": "14:05",
-                "duration": 4
-              },
-              {
-                "name": "Period 9",
-                "startTime": "14:09",
-                "duration": 41
-              },
-              {
-                "name": "Before Period 10",
-                "startTime": "14:50",
-                "duration": 4
-              },
-              {
-                "name": "Period 10",
-                "startTime": "14:54",
-                "duration": 41
-              },
-              {
-                "name": "After School",
-                "startTime": "15:35",
-                "duration": 504
-              }
-            ]
-          },
-          "block": "A1",
-          "testing": "WL, ELA, Health Testing",
-          "announcement": null
-        },
-        {
-          "day": "March 29, 2023",
+          "day": "April 4, 2023",
           "bell": {
             "scheduleType": "regular",
             "scheduleName": "Regular Schedule",
@@ -378,20 +256,15 @@ export default function handler(req, res) {
             ]
           },
           "block": "B2",
-          "testing": "Math, Music, & Art Testing",
+          "testing": "Math, Music, Art, & Tech Testing",
           "announcement": null
         },
         {
-          "day": "March 30, 2023",
+          "day": "April 5, 2023",
           "bell": {
-            "scheduleType": "regular",
-            "scheduleName": "Regular Schedule",
+            "scheduleType": "conference",
+            "scheduleName": "Conference Schedule",
             "schedule": [
-              {
-                "name": "Before School",
-                "startTime": "0:00",
-                "duration": 420
-              },
               {
                 "name": "Before Period 1",
                 "startTime": "7:00",
@@ -400,225 +273,127 @@ export default function handler(req, res) {
               {
                 "name": "Period 1",
                 "startTime": "8:00",
-                "duration": 41
+                "duration": 37
               },
               {
                 "name": "Before Period 2",
-                "startTime": "8:41",
+                "startTime": "8:37",
                 "duration": 4
               },
               {
                 "name": "Period 2",
-                "startTime": "8:45",
-                "duration": 41
+                "startTime": "8:41",
+                "duration": 37
               },
               {
                 "name": "Before Period 3",
-                "startTime": "9:26",
-                "duration": 5
+                "startTime": "9:18",
+                "duration": 4
               },
               {
                 "name": "Period 3",
-                "startTime": "9:31",
-                "duration": 44
+                "startTime": "9:22",
+                "duration": 37
               },
               {
                 "name": "Before Period 4",
-                "startTime": "10:15",
-                "duration": 5
+                "startTime": "9:59",
+                "duration": 4
               },
               {
                 "name": "Period 4",
-                "startTime": "10:20",
-                "duration": 41
+                "startTime": "10:03",
+                "duration": 37
               },
               {
                 "name": "Before Period 5",
-                "startTime": "11:01",
-                "duration": 5
+                "startTime": "10:40",
+                "duration": 4
               },
               {
                 "name": "Period 5",
-                "startTime": "11:06",
-                "duration": 41
+                "startTime": "10:44",
+                "duration": 37
               },
               {
                 "name": "Before Period 6",
-                "startTime": "11:47",
-                "duration": 5
+                "startTime": "11:21",
+                "duration": 4
               },
               {
                 "name": "Period 6",
-                "startTime": "11:52",
-                "duration": 41
+                "startTime": "11:25",
+                "duration": 37
               },
               {
                 "name": "Before Period 7",
-                "startTime": "12:33",
-                "duration": 5
+                "startTime": "12:02",
+                "duration": 4
               },
               {
                 "name": "Period 7",
-                "startTime": "12:38",
-                "duration": 41
+                "startTime": "12:06",
+                "duration": 37
               },
               {
                 "name": "Before Period 8",
-                "startTime": "13:19",
-                "duration": 5
+                "startTime": "12:43",
+                "duration": 4
               },
               {
                 "name": "Period 8",
-                "startTime": "13:24",
-                "duration": 41
+                "startTime": "12:47",
+                "duration": 37
               },
               {
                 "name": "Before Period 9",
+                "startTime": "13:24",
+                "duration": 4
+              },
+              {
+                "name": "Period 9",
+                "startTime": "13:28",
+                "duration": 37
+              },
+              {
+                "name": "Before Period 10",
                 "startTime": "14:05",
                 "duration": 4
               },
               {
-                "name": "Period 9",
+                "name": "Period 10",
                 "startTime": "14:09",
-                "duration": 41
+                "duration": 37
               },
               {
-                "name": "Before Period 10",
-                "startTime": "14:50",
+                "name": "Before Meeting",
+                "startTime": "14:46",
                 "duration": 4
               },
               {
-                "name": "Period 10",
-                "startTime": "14:54",
-                "duration": 41
-              },
-              {
-                "name": "After School",
-                "startTime": "15:35",
-                "duration": 504
+                "name": "Meeting",
+                "startTime": "14:50",
+                "duration": 40
               }
             ]
           },
           "block": "A2",
-          "testing": "CS, SS, & Tech Testing",
+          "testing": "WL, ELA, CS, SS, & Health Testing",
           "announcement": null
         },
         {
-          "day": "March 31, 2023",
-          "bell": {
-            "scheduleType": "halfday",
-            "scheduleName": "Half Day Schedule",
-            "schedule": [
-              {
-                "name": "Before School",
-                "startTime": "7:30",
-                "duration": 45
-              },
-              {
-                "name": "Period 1",
-                "startTime": "8:15",
-                "duration": 20
-              },
-              {
-                "name": "Before Period 2",
-                "startTime": "8:35",
-                "duration": 4
-              },
-              {
-                "name": "Period 2",
-                "startTime": "8:39",
-                "duration": 20
-              },
-              {
-                "name": "Before Period 3",
-                "startTime": "8:59",
-                "duration": 4
-              },
-              {
-                "name": "Period 3",
-                "startTime": "9:03",
-                "duration": 20
-              },
-              {
-                "name": "Before Period 4",
-                "startTime": "9:23",
-                "duration": 4
-              },
-              {
-                "name": "Period 4",
-                "startTime": "9:27",
-                "duration": 20
-              },
-              {
-                "name": "Before Period 5",
-                "startTime": "9:47",
-                "duration": 4
-              },
-              {
-                "name": "Period 5",
-                "startTime": "9:51",
-                "duration": 20
-              },
-              {
-                "name": "Before Period 6",
-                "startTime": "10:11",
-                "duration": 4
-              },
-              {
-                "name": "Period 6",
-                "startTime": "10:15",
-                "duration": 20
-              },
-              {
-                "name": "Before Period 7",
-                "startTime": "10:35",
-                "duration": 4
-              },
-              {
-                "name": "Period 7",
-                "startTime": "10:39",
-                "duration": 20
-              },
-              {
-                "name": "Before Period 8",
-                "startTime": "10:59",
-                "duration": 4
-              },
-              {
-                "name": "Period 8",
-                "startTime": "11:03",
-                "duration": 20
-              },
-              {
-                "name": "Before Period 9",
-                "startTime": "11:23",
-                "duration": 4
-              },
-              {
-                "name": "Period 9",
-                "startTime": "11:27",
-                "duration": 20
-              },
-              {
-                "name": "Before Period 10",
-                "startTime": "11:47",
-                "duration": 4
-              },
-              {
-                "name": "Period 10",
-                "startTime": "11:51",
-                "duration": 20
-              },
-              {
-                "name": "After School",
-                "startTime": "12:11",
-                "duration": 708
-              }
-            ]
-          },
-          "block": "B",
+          "day": "April 6, 2023",
+          "bell": null,
+          "block": null,
           "testing": "No Testing",
-          "announcement": "Half Day. PTC after school."
+          "announcement": null
+        },
+        {
+          "day": "April 7, 2023",
+          "bell": null,
+          "block": null,
+          "testing": "No Testing",
+          "announcement": null
         }
       ]
     }
