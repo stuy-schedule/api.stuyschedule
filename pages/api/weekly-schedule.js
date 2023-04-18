@@ -376,7 +376,7 @@ export default function handler(req, res) {
             }
           ]
         },
-        block: 'A2',
+        block: 'B2',
         testing: 'WL, ELA, CS, SS, & Health Testing',
         announcement: 'Spring Choral Concert at 6 PM.'
       },
