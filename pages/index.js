@@ -1,11 +1,17 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import {
+  CopyBlock,
+  atomOneDark,
+  dracula,
+  solarizedDark,
+  tomorrowNight,
+  tomorrowNightEighties
+} from 'react-code-blocks';
 
-import { CopyBlock,dracula,atomOneDark,solarizedDark,tomorrowNight,tomorrowNightEighties } from "react-code-blocks";
+import Head from 'next/head';
+import Link from 'next/link';
+import styles from '../styles/Home.module.css';
 
-const code =
-  `{
+const code = `{
     "scheduleType": "week",
     "days": [
       {
@@ -21,10 +27,9 @@ const code =
       },
       ...
     ]
-  }`
+  }`;
 
-const schedulecode = 
-`[
+const schedulecode = `[
   {
     "name": "Before Period 1",
     "startTime": "7:00",
@@ -40,7 +45,7 @@ const schedulecode =
     "startTime": "8:41",
     "duration": 4
   }
-]`
+]`;
 
 export default function Home() {
   return (
@@ -58,21 +63,21 @@ export default function Home() {
 
         <p className={styles.description}>
           Weekly schedule API located at{' '}
-          <code className={styles.code}>/api/weekly-schedule</code>
+          <Link href="/api/weekly-schedule">
+            <code className={styles.code}>/api/weekly-schedule</code>
+          </Link>
         </p>
 
-        <h2 className={styles.subtitle}>
-          API data format
-        </h2>
+        <h2 className={styles.subtitle}>API data format</h2>
 
         <div className={styles.codewrapper}>
           <br></br>
           <CopyBlock
-          text={code}
-          language='java'
-          // showLineNumbers='true'
-          wrapLines
-          theme={tomorrowNight}
+            text={code}
+            language="java"
+            // showLineNumbers='true'
+            wrapLines
+            theme={tomorrowNight}
           />
         </div>
 
@@ -85,22 +90,21 @@ export default function Home() {
           <br></br>
           <CopyBlock
             text={schedulecode}
-            language='java'
+            language="java"
             // showLineNumbers='true'
             wrapLines
             theme={tomorrowNight}
-            />
+          />
         </div>
 
         <p className={styles.description}>
-          Note: <code className={styles.code}>&quot;bell&quot;</code>, 
-          <code className={styles.code}>&quot;block&quot;</code>, and 
-          <code className={styles.code}>&quot;announcements&quot;</code> may be <code className={styles.code}>null</code>,<br></br>
+          Note: <code className={styles.code}>&quot;bell&quot;</code>,
+          <code className={styles.code}>&quot;block&quot;</code>, and
+          <code className={styles.code}>&quot;announcements&quot;</code> may be{' '}
+          <code className={styles.code}>null</code>,<br></br>
           indicating no school, or no announcement
         </p>
-
-
       </main>
     </div>
-  )
+  );
 }
