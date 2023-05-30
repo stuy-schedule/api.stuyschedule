@@ -270,7 +270,7 @@ export default function handler(req, res) {
         bell: null,
         block: null,
         testing: 'No Testing',
-        announcement: 'US History Regents (9:15 am), German Regents (1:15 pm)'
+        announcement: 'US History Regents (8:30 am), German Regents (12:30 pm)'
       },
       {
         day: 'June 2, 2023',
