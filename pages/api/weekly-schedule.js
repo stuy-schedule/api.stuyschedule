@@ -15,35 +15,35 @@ export default function handler(req, res) {
     scheduleType: 'week',
     days: [
       {
-        day: 'June 20, 2023',
+        day: 'June 19, 2023',
         bell: null,
         block: null,
         testing: 'No Testing',
         announcement: null
       },
       {
-        day: 'June 21, 2023',
+        day: 'June 20, 2023',
         bell: null,
         block: null,
         testing: 'No Testing',
         announcement: 'Geometry Regents (8:30 am), LOTE Regents (12:30 pm)'
       },
       {
-        day: 'June 22, 2023',
+        day: 'June 21, 2023',
         bell: null,
         block: null,
         testing: 'No Testing',
         announcement: 'Algebra II Regents (8:30 am)'
       },
       {
-        day: 'June 23, 2023',
+        day: 'June 22, 2023',
         bell: null,
         block: null,
         testing: 'No Testing',
         announcement: 'Physics (8:30 am)'
       },
       {
-        day: 'June 24, 2023',
+        day: 'June 23, 2023',
         bell: null,
         block: null,
         testing: 'No Testing',
