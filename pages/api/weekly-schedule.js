@@ -378,7 +378,7 @@ export default function handler(req, res) {
         },
         block: 'A1',
         testing: 'WL, ELA & Health Testing',
-        announcement: null
+        announcement: 'STC Winter Drama - "Arsenic & Old Lace"'
       },
       {
         day: 'January 11, 2024',
@@ -622,7 +622,7 @@ export default function handler(req, res) {
         },
         block: 'A2',
         testing: 'CS, SS & Technology Testing',
-        announcement: null
+        announcement: 'STC Winter Drama - "Arsenic & Old Lace"'
       }
     ]
   });
