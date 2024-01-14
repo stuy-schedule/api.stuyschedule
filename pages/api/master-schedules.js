@@ -374,97 +374,97 @@ export default function handler(req, res) {
         {
           name: 'Period 1',
           startTime: '8:00',
-          duration: 40
+          duration: 41
         },
         {
           name: 'Before Period 2',
-          startTime: '8:40',
+          startTime: '8:41',
           duration: 4
         },
         {
           name: 'Period 2',
-          startTime: '8:44',
-          duration: 39
+          startTime: '8:45',
+          duration: 40
         },
         {
           name: 'Before Period 3',
-          startTime: '9:23',
+          startTime: '9:25',
           duration: 4
         },
         {
           name: 'Period 3',
-          startTime: '9:27',
+          startTime: '9:29',
           duration: 39
         },
         {
           name: 'Before Homeroom',
-          startTime: '10:06',
+          startTime: '10:08',
           duration: 4
         },
         {
           name: 'Homeroom',
-          startTime: '10:10',
-          duration: 22
+          startTime: '10:12',
+          duration: 21
         },
         {
           name: 'Before Period 4',
-          startTime: '10:32',
+          startTime: '10:33',
           duration: 4
         },
         {
           name: 'Period 4',
-          startTime: '10:36',
+          startTime: '10:37',
           duration: 39
         },
         {
           name: 'Before Period 5',
-          startTime: '11:15',
+          startTime: '11:16',
           duration: 4
         },
         {
           name: 'Period 5',
-          startTime: '11:19',
+          startTime: '11:20',
           duration: 39
         },
         {
           name: 'Before Period 6',
-          startTime: '11:58',
+          startTime: '11:59',
           duration: 4
         },
         {
           name: 'Period 6',
-          startTime: '12:02',
+          startTime: '12:03',
           duration: 39
         },
         {
           name: 'Before Period 7',
-          startTime: '12:41',
+          startTime: '12:42',
           duration: 4
         },
         {
           name: 'Period 7',
-          startTime: '12:45',
+          startTime: '12:46',
           duration: 39
         },
         {
           name: 'Before Period 8',
-          startTime: '13:24',
+          startTime: '13:25',
           duration: 4
         },
         {
           name: 'Period 8',
-          startTime: '13:28',
+          startTime: '13:29',
           duration: 39
         },
         {
           name: 'Before Period 9',
-          startTime: '14:07',
+          startTime: '14:08',
           duration: 4
         },
         {
           name: 'Period 9',
-          startTime: '14:11',
-          duration: 39
+          startTime: '14:12',
+          duration: 38
         },
         {
           name: 'Before Period 10',
@@ -597,7 +597,7 @@ export default function handler(req, res) {
       ]
     },
 
-    // PSAT 2022
+    // PSAT
     bell: {
       scheduleType: 'psat',
       scheduleName: 'PSAT Schedule',
