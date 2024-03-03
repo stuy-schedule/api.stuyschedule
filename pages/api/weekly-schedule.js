@@ -15,7 +15,7 @@ export default function handler(req, res) {
     scheduleType: 'week',
     days: [
       {
-        day: 'February 26, 2024',
+        day: 'March 4, 2024',
         bell: {
           scheduleType: 'regular',
           scheduleName: 'Regular Schedule',
@@ -132,143 +132,16 @@ export default function handler(req, res) {
             }
           ]
         },
-        block: 'A',
-        testing: 'No Testing',
-        announcement: null
-      },
-      {
-        day: 'February 27, 2024',
-        bell: {
-          scheduleType: 'regular',
-          scheduleName: 'Regular Schedule',
-          schedule: [
-            {
-              name: 'Before School',
-              startTime: '0:00',
-              duration: 420
-            },
-            {
-              name: 'Before Period 1',
-              startTime: '7:00',
-              duration: 60
-            },
-            {
-              name: 'Period 1',
-              startTime: '8:00',
-              duration: 41
-            },
-            {
-              name: 'Before Period 2',
-              startTime: '8:41',
-              duration: 4
-            },
-            {
-              name: 'Period 2',
-              startTime: '8:45',
-              duration: 41
-            },
-            {
-              name: 'Before Period 3',
-              startTime: '9:26',
-              duration: 5
-            },
-            {
-              name: 'Period 3',
-              startTime: '9:31',
-              duration: 44
-            },
-            {
-              name: 'Before Period 4',
-              startTime: '10:15',
-              duration: 5
-            },
-            {
-              name: 'Period 4',
-              startTime: '10:20',
-              duration: 41
-            },
-            {
-              name: 'Before Period 5',
-              startTime: '11:01',
-              duration: 5
-            },
-            {
-              name: 'Period 5',
-              startTime: '11:06',
-              duration: 41
-            },
-            {
-              name: 'Before Period 6',
-              startTime: '11:47',
-              duration: 5
-            },
-            {
-              name: 'Period 6',
-              startTime: '11:52',
-              duration: 41
-            },
-            {
-              name: 'Before Period 7',
-              startTime: '12:33',
-              duration: 5
-            },
-            {
-              name: 'Period 7',
-              startTime: '12:38',
-              duration: 41
-            },
-            {
-              name: 'Before Period 8',
-              startTime: '13:19',
-              duration: 5
-            },
-            {
-              name: 'Period 8',
-              startTime: '13:24',
-              duration: 41
-            },
-            {
-              name: 'Before Period 9',
-              startTime: '14:05',
-              duration: 4
-            },
-            {
-              name: 'Period 9',
-              startTime: '14:09',
-              duration: 41
-            },
-            {
-              name: 'Before Period 10',
-              startTime: '14:50',
-              duration: 4
-            },
-            {
-              name: 'Period 10',
-              startTime: '14:54',
-              duration: 41
-            },
-            {
-              name: 'After School',
-              startTime: '15:35',
-              duration: 504
-            }
-          ]
-        },
-        block: 'B1',
+        block: 'B',
         testing: 'Science Testing',
         announcement: null
       },
       {
-        day: 'February 28, 2024',
+        day: 'March 5, 2024',
         bell: {
-          scheduleType: 'regular',
-          scheduleName: 'Regular Schedule',
+          scheduleType: 'extendedhomeroom',
+          scheduleName: 'Extended Homeroom Schedule',
           schedule: [
-            {
-              name: 'Before School',
-              startTime: '0:00',
-              duration: 420
-            },
             {
               name: 'Before Period 1',
               startTime: '7:00',
@@ -287,110 +160,110 @@ export default function handler(req, res) {
             {
               name: 'Period 2',
               startTime: '8:45',
-              duration: 41
+              duration: 40
             },
             {
               name: 'Before Period 3',
-              startTime: '9:26',
-              duration: 5
+              startTime: '9:25',
+              duration: 4
             },
             {
               name: 'Period 3',
-              startTime: '9:31',
-              duration: 44
+              startTime: '9:29',
+              duration: 39
+            },
+            {
+              name: 'Before Homeroom',
+              startTime: '10:08',
+              duration: 4
+            },
+            {
+              name: 'Homeroom',
+              startTime: '10:12',
+              duration: 21
             },
             {
               name: 'Before Period 4',
-              startTime: '10:15',
-              duration: 5
+              startTime: '10:33',
+              duration: 4
             },
             {
               name: 'Period 4',
-              startTime: '10:20',
-              duration: 41
+              startTime: '10:37',
+              duration: 39
             },
             {
               name: 'Before Period 5',
-              startTime: '11:01',
-              duration: 5
+              startTime: '11:16',
+              duration: 4
             },
             {
               name: 'Period 5',
-              startTime: '11:06',
-              duration: 41
+              startTime: '11:20',
+              duration: 39
             },
             {
               name: 'Before Period 6',
-              startTime: '11:47',
-              duration: 5
+              startTime: '11:59',
+              duration: 4
             },
             {
               name: 'Period 6',
-              startTime: '11:52',
-              duration: 41
+              startTime: '12:03',
+              duration: 39
             },
             {
               name: 'Before Period 7',
-              startTime: '12:33',
-              duration: 5
+              startTime: '12:42',
+              duration: 4
             },
             {
               name: 'Period 7',
-              startTime: '12:38',
-              duration: 41
+              startTime: '12:46',
+              duration: 39
             },
             {
               name: 'Before Period 8',
-              startTime: '13:19',
-              duration: 5
+              startTime: '13:25',
+              duration: 4
             },
             {
               name: 'Period 8',
-              startTime: '13:24',
-              duration: 41
+              startTime: '13:29',
+              duration: 39
             },
             {
               name: 'Before Period 9',
-              startTime: '14:05',
+              startTime: '14:08',
               duration: 4
             },
             {
               name: 'Period 9',
-              startTime: '14:09',
-              duration: 41
+              startTime: '14:12',
+              duration: 38
             },
             {
               name: 'Before Period 10',
               startTime: '14:50',
-              duration: 4
+              duration: 5
             },
             {
               name: 'Period 10',
-              startTime: '14:54',
-              duration: 41
-            },
-            {
-              name: 'After School',
-              startTime: '15:35',
-              duration: 504
+              startTime: '14:55',
+              duration: 40
             }
           ]
         },
         block: 'A1',
-        testing: 'WL, ELA & Health Testing',
-        announcement: null
+        testing: 'Science Testing',
+        announcement: 'Student Surveys'
       },
       {
-        day: 'February 29, 2024',
+        day: 'March 6, 2024',
         bell: {
-          scheduleType: 'regular',
-          scheduleName: 'Regular Schedule',
+          scheduleType: 'conference',
+          scheduleName: 'Conference Schedule',
           schedule: [
-            {
-              name: 'Before School',
-              startTime: '0:00',
-              duration: 420
-            },
             {
               name: 'Before Period 1',
               startTime: '7:00',
@@ -399,111 +272,116 @@ export default function handler(req, res) {
             {
               name: 'Period 1',
               startTime: '8:00',
-              duration: 41
+              duration: 37
             },
             {
               name: 'Before Period 2',
-              startTime: '8:41',
+              startTime: '8:37',
               duration: 4
             },
             {
               name: 'Period 2',
-              startTime: '8:45',
-              duration: 41
+              startTime: '8:41',
+              duration: 37
             },
             {
               name: 'Before Period 3',
-              startTime: '9:26',
-              duration: 5
+              startTime: '9:18',
+              duration: 4
             },
             {
               name: 'Period 3',
-              startTime: '9:31',
-              duration: 44
+              startTime: '9:22',
+              duration: 37
             },
             {
               name: 'Before Period 4',
-              startTime: '10:15',
-              duration: 5
+              startTime: '9:59',
+              duration: 4
             },
             {
               name: 'Period 4',
-              startTime: '10:20',
-              duration: 41
+              startTime: '10:03',
+              duration: 37
             },
             {
               name: 'Before Period 5',
-              startTime: '11:01',
-              duration: 5
+              startTime: '10:40',
+              duration: 4
             },
             {
               name: 'Period 5',
-              startTime: '11:06',
-              duration: 41
+              startTime: '10:44',
+              duration: 37
             },
             {
               name: 'Before Period 6',
-              startTime: '11:47',
-              duration: 5
+              startTime: '11:21',
+              duration: 4
             },
             {
               name: 'Period 6',
-              startTime: '11:52',
-              duration: 41
+              startTime: '11:25',
+              duration: 37
             },
             {
               name: 'Before Period 7',
-              startTime: '12:33',
-              duration: 5
+              startTime: '12:02',
+              duration: 4
             },
             {
               name: 'Period 7',
-              startTime: '12:38',
-              duration: 41
+              startTime: '12:06',
+              duration: 37
             },
             {
               name: 'Before Period 8',
-              startTime: '13:19',
-              duration: 5
+              startTime: '12:43',
+              duration: 4
             },
             {
               name: 'Period 8',
-              startTime: '13:24',
-              duration: 41
+              startTime: '12:47',
+              duration: 37
             },
             {
               name: 'Before Period 9',
-              startTime: '14:05',
+              startTime: '13:24',
               duration: 4
             },
             {
               name: 'Period 9',
-              startTime: '14:09',
-              duration: 41
+              startTime: '13:28',
+              duration: 37
             },
             {
               name: 'Before Period 10',
-              startTime: '14:50',
+              startTime: '14:05',
               duration: 4
             },
             {
               name: 'Period 10',
-              startTime: '14:54',
-              duration: 41
+              startTime: '14:09',
+              duration: 37
             },
             {
-              name: 'After School',
-              startTime: '15:35',
-              duration: 504
+              name: 'Before Meeting',
+              startTime: '14:46',
+              duration: 4
+            },
+            {
+              name: 'Meeting',
+              startTime: '14:50',
+              duration: 40
             }
           ]
         },
-        block: 'B2',
-        testing: 'Math, Music & Art Testing',
+        block: 'B1',
+        testing: 'WL, ELA & Health Testing',
         announcement: null
       },
       {
-        day: 'March 1, 2024',
+        day: 'March 7, 2024',
         bell: {
           scheduleType: 'regular',
           scheduleName: 'Regular Schedule',
@@ -621,6 +499,128 @@ export default function handler(req, res) {
           ]
         },
         block: 'A2',
+        testing: 'Math, Music & Art Testing',
+        announcement: null
+      },
+      {
+        day: 'March 8, 2024',
+        bell: {
+          scheduleType: 'regular',
+          scheduleName: 'Regular Schedule',
+          schedule: [
+            {
+              name: 'Before School',
+              startTime: '0:00',
+              duration: 420
+            },
+            {
+              name: 'Before Period 1',
+              startTime: '7:00',
+              duration: 60
+            },
+            {
+              name: 'Period 1',
+              startTime: '8:00',
+              duration: 41
+            },
+            {
+              name: 'Before Period 2',
+              startTime: '8:41',
+              duration: 4
+            },
+            {
+              name: 'Period 2',
+              startTime: '8:45',
+              duration: 41
+            },
+            {
+              name: 'Before Period 3',
+              startTime: '9:26',
+              duration: 5
+            },
+            {
+              name: 'Period 3',
+              startTime: '9:31',
+              duration: 44
+            },
+            {
+              name: 'Before Period 4',
+              startTime: '10:15',
+              duration: 5
+            },
+            {
+              name: 'Period 4',
+              startTime: '10:20',
+              duration: 41
+            },
+            {
+              name: 'Before Period 5',
+              startTime: '11:01',
+              duration: 5
+            },
+            {
+              name: 'Period 5',
+              startTime: '11:06',
+              duration: 41
+            },
+            {
+              name: 'Before Period 6',
+              startTime: '11:47',
+              duration: 5
+            },
+            {
+              name: 'Period 6',
+              startTime: '11:52',
+              duration: 41
+            },
+            {
+              name: 'Before Period 7',
+              startTime: '12:33',
+              duration: 5
+            },
+            {
+              name: 'Period 7',
+              startTime: '12:38',
+              duration: 41
+            },
+            {
+              name: 'Before Period 8',
+              startTime: '13:19',
+              duration: 5
+            },
+            {
+              name: 'Period 8',
+              startTime: '13:24',
+              duration: 41
+            },
+            {
+              name: 'Before Period 9',
+              startTime: '14:05',
+              duration: 4
+            },
+            {
+              name: 'Period 9',
+              startTime: '14:09',
+              duration: 41
+            },
+            {
+              name: 'Before Period 10',
+              startTime: '14:50',
+              duration: 4
+            },
+            {
+              name: 'Period 10',
+              startTime: '14:54',
+              duration: 41
+            },
+            {
+              name: 'After School',
+              startTime: '15:35',
+              duration: 504
+            }
+          ]
+        },
+        block: 'B2',
         testing: 'CS, SS & Technology Testing',
         announcement: null
       }
