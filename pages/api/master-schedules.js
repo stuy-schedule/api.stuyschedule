@@ -655,6 +655,124 @@ export default function handler(req, res) {
       ]
     },
 
+    // SAT
+    bell: {
+      scheduleType: 'sat',
+      scheduleName: 'SAT Schedule',
+      schedule: [
+        {
+          name: 'Before School',
+          startTime: '0:00',
+          duration: 720
+        },
+        {
+          name: 'Before Period 1',
+          startTime: '12:00',
+          duration: 54
+        },
+        {
+          name: 'Period 1',
+          startTime: '12:54',
+          duration: 8
+        },
+        {
+          name: 'Before Period 2',
+          startTime: '13:02',
+          duration: 4
+        },
+        {
+          name: 'Period 2',
+          startTime: '13:06',
+          duration: 8
+        },
+        {
+          name: 'Before Period 3',
+          startTime: '13:14',
+          duration: 4
+        },
+        {
+          name: 'Period 3',
+          startTime: '13:18',
+          duration: 8
+        },
+        {
+          name: 'Before Period 4',
+          startTime: '13:26',
+          duration: 4
+        },
+        {
+          name: 'Period 4',
+          startTime: '13:30',
+          duration: 8
+        },
+        {
+          name: 'Before Period 5',
+          startTime: '13:38',
+          duration: 4
+        },
+        {
+          name: 'Period 5',
+          startTime: '13:42',
+          duration: 8
+        },
+        {
+          name: 'Before Period 6',
+          startTime: '13:50',
+          duration: 4
+        },
+        {
+          name: 'Period 6',
+          startTime: '13:54',
+          duration: 8
+        },
+        {
+          name: 'Before Period 7',
+          startTime: '14:02',
+          duration: 4
+        },
+        {
+          name: 'Period 7',
+          startTime: '14:06',
+          duration: 8
+        },
+        {
+          name: 'Before Period 8',
+          startTime: '14:14',
+          duration: 4
+        },
+        {
+          name: 'Period 8',
+          startTime: '14:18',
+          duration: 8
+        },
+        {
+          name: 'Before Period 9',
+          startTime: '14:26',
+          duration: 4
+        },
+        {
+          name: 'Period 9',
+          startTime: '14:30',
+          duration: 8
+        },
+        {
+          name: 'Before Period 10',
+          startTime: '14:38',
+          duration: 4
+        },
+        {
+          name: 'Period 10',
+          startTime: '14:42',
+          duration: 8
+        },
+        {
+          name: 'After School',
+          startTime: '14:50',
+          duration: 549
+        }
+      ]
+    },
+
     // Half Day
     bell: {
       scheduleType: 'halfday',
