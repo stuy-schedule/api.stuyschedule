@@ -661,9 +661,24 @@ export default function handler(req, res) {
       scheduleName: 'SAT Schedule',
       schedule: [
         {
-          name: 'Before School',
-          startTime: '0:00',
-          duration: 720
+          name: 'Before School Open',
+          startTime: '6:30',
+          duration: 60
+        },
+        {
+          name: 'School Open',
+          startTime: '7:30',
+          duration: 45
+        },
+        {
+          name: 'Report to Testing Rooms',
+          startTime: '8:15',
+          duration: 15
+        },
+        {
+          name: 'SAT',
+          startTime: '8:30',
+          duration: 210
         },
         {
           name: 'Before Period 1',
