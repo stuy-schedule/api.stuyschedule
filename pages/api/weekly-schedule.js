@@ -503,7 +503,7 @@ export default function handler(req, res) {
         announcement: 'Report Cards'
       },
       {
-        day: 'March 15, 2024',
+        day: 'March 22, 2024',
         bell: {
           scheduleType: 'sat',
           scheduleName: 'SAT Schedule',
