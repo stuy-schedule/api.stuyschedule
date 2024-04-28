@@ -1,4 +1,5 @@
-const { MongoClient } = require("mongodb");
+import { MongoClient } from 'mongodb';
+
 const uri = process.env.MONGODB_URI;
 
 async function getClient() {
@@ -18,7 +19,7 @@ export async function logRequest(req) {
     const db = client.db("stuy_schedule_db");
     const collection = db.collection("logs");
 
-    const timestamp = new Date().toISOString();
+    const timestamp = new Date();
     const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
     const method = req.method;
     const endpoint = req.url;

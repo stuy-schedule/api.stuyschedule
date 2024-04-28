@@ -2,6 +2,8 @@
 
 // import rateLimit from "express-rate-limit";
 
+import { logRequest } from './middleware';
+
 // const limiter = rateLimit({
 //     windowMs: 15 * 60 * 1000, // 15 minutes
 //     max: 20, // limit each IP to 100 requests per windowMs
@@ -18,7 +20,8 @@ scheduletype: regular, conference, homeroom
 see api/master-schedules.js for all bell schedules
 */
 
-export default function handler(req, res) {
+export default async function handler(req, res) {
+  await logRequest(req);
   res.setHeader('Cache-Control', 'public, max-age=3600');
   res.status(200).json({
     scheduleType: 'week',
