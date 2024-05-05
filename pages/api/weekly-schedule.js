@@ -26,129 +26,7 @@ export default async function handler(req, res) {
     scheduleType: 'week',
     days: [
       {
-        day: 'May 1, 2024',
-        bell: {
-          scheduleType: 'conference',
-          scheduleName: 'Conference Schedule',
-          schedule: [
-            {
-              name: 'Before Period 1',
-              startTime: '7:00',
-              duration: 60
-            },
-            {
-              name: 'Period 1',
-              startTime: '8:00',
-              duration: 37
-            },
-            {
-              name: 'Before Period 2',
-              startTime: '8:37',
-              duration: 4
-            },
-            {
-              name: 'Period 2',
-              startTime: '8:41',
-              duration: 37
-            },
-            {
-              name: 'Before Period 3',
-              startTime: '9:18',
-              duration: 4
-            },
-            {
-              name: 'Period 3',
-              startTime: '9:22',
-              duration: 37
-            },
-            {
-              name: 'Before Period 4',
-              startTime: '9:59',
-              duration: 4
-            },
-            {
-              name: 'Period 4',
-              startTime: '10:03',
-              duration: 37
-            },
-            {
-              name: 'Before Period 5',
-              startTime: '10:40',
-              duration: 4
-            },
-            {
-              name: 'Period 5',
-              startTime: '10:44',
-              duration: 37
-            },
-            {
-              name: 'Before Period 6',
-              startTime: '11:21',
-              duration: 4
-            },
-            {
-              name: 'Period 6',
-              startTime: '11:25',
-              duration: 37
-            },
-            {
-              name: 'Before Period 7',
-              startTime: '12:02',
-              duration: 4
-            },
-            {
-              name: 'Period 7',
-              startTime: '12:06',
-              duration: 37
-            },
-            {
-              name: 'Before Period 8',
-              startTime: '12:43',
-              duration: 4
-            },
-            {
-              name: 'Period 8',
-              startTime: '12:47',
-              duration: 37
-            },
-            {
-              name: 'Before Period 9',
-              startTime: '13:24',
-              duration: 4
-            },
-            {
-              name: 'Period 9',
-              startTime: '13:28',
-              duration: 37
-            },
-            {
-              name: 'Before Period 10',
-              startTime: '14:05',
-              duration: 4
-            },
-            {
-              name: 'Period 10',
-              startTime: '14:09',
-              duration: 37
-            },
-            {
-              name: 'Before Meeting',
-              startTime: '14:46',
-              duration: 4
-            },
-            {
-              name: 'Meeting',
-              startTime: '14:50',
-              duration: 40
-            }
-          ]
-        },
-        block: 'B',
-        testing: 'No Testing',
-        announcement: null
-      },
-      {
-        day: 'May 2, 2024',
+        day: 'May 6, 2024',
         bell: {
           scheduleType: 'regular',
           scheduleName: 'Regular Schedule',
@@ -265,12 +143,256 @@ export default async function handler(req, res) {
             }
           ]
         },
-        block: 'A2',
-        testing: 'No Testing',
-        announcement: 'Annual College Fair (6:00 pm - 8:00 pm)'
+        block: 'A',
+        testing: 'Science Testing',
+        announcement: 'AP Gov @ 8 am, AP Chem @ 12 pm'
       },
       {
-        day: 'May 3, 2024',
+        day: 'May 7, 2024',
+        bell: {
+          scheduleType: 'extendedhomeroom',
+          scheduleName: 'Extended Homeroom Schedule',
+          schedule: [
+            {
+              name: 'Before Period 1',
+              startTime: '7:00',
+              duration: 60
+            },
+            {
+              name: 'Period 1',
+              startTime: '8:00',
+              duration: 41
+            },
+            {
+              name: 'Before Period 2',
+              startTime: '8:41',
+              duration: 4
+            },
+            {
+              name: 'Period 2',
+              startTime: '8:45',
+              duration: 40
+            },
+            {
+              name: 'Before Period 3',
+              startTime: '9:25',
+              duration: 4
+            },
+            {
+              name: 'Period 3',
+              startTime: '9:29',
+              duration: 39
+            },
+            {
+              name: 'Before Homeroom',
+              startTime: '10:08',
+              duration: 4
+            },
+            {
+              name: 'Homeroom',
+              startTime: '10:12',
+              duration: 21
+            },
+            {
+              name: 'Before Period 4',
+              startTime: '10:33',
+              duration: 4
+            },
+            {
+              name: 'Period 4',
+              startTime: '10:37',
+              duration: 39
+            },
+            {
+              name: 'Before Period 5',
+              startTime: '11:16',
+              duration: 4
+            },
+            {
+              name: 'Period 5',
+              startTime: '11:20',
+              duration: 39
+            },
+            {
+              name: 'Before Period 6',
+              startTime: '11:59',
+              duration: 4
+            },
+            {
+              name: 'Period 6',
+              startTime: '12:03',
+              duration: 39
+            },
+            {
+              name: 'Before Period 7',
+              startTime: '12:42',
+              duration: 4
+            },
+            {
+              name: 'Period 7',
+              startTime: '12:46',
+              duration: 39
+            },
+            {
+              name: 'Before Period 8',
+              startTime: '13:25',
+              duration: 4
+            },
+            {
+              name: 'Period 8',
+              startTime: '13:29',
+              duration: 39
+            },
+            {
+              name: 'Before Period 9',
+              startTime: '14:08',
+              duration: 4
+            },
+            {
+              name: 'Period 9',
+              startTime: '14:12',
+              duration: 38
+            },
+            {
+              name: 'Before Period 10',
+              startTime: '14:50',
+              duration: 5
+            },
+            {
+              name: 'Period 10',
+              startTime: '14:55',
+              duration: 40
+            }
+          ]
+        },
+        block: 'B1',
+        testing: 'Science Testing',
+        announcement: 'AP Micro @ 8am, AP Hug @ 8am, AP Stats @ 12pm'
+      },
+      {
+        day: 'May 8, 2024',
+        bell: {
+          scheduleType: 'regular',
+          scheduleName: 'Regular Schedule',
+          schedule: [
+            {
+              name: 'Before School',
+              startTime: '0:00',
+              duration: 420
+            },
+            {
+              name: 'Before Period 1',
+              startTime: '7:00',
+              duration: 60
+            },
+            {
+              name: 'Period 1',
+              startTime: '8:00',
+              duration: 41
+            },
+            {
+              name: 'Before Period 2',
+              startTime: '8:41',
+              duration: 4
+            },
+            {
+              name: 'Period 2',
+              startTime: '8:45',
+              duration: 41
+            },
+            {
+              name: 'Before Period 3',
+              startTime: '9:26',
+              duration: 5
+            },
+            {
+              name: 'Period 3',
+              startTime: '9:31',
+              duration: 44
+            },
+            {
+              name: 'Before Period 4',
+              startTime: '10:15',
+              duration: 5
+            },
+            {
+              name: 'Period 4',
+              startTime: '10:20',
+              duration: 41
+            },
+            {
+              name: 'Before Period 5',
+              startTime: '11:01',
+              duration: 5
+            },
+            {
+              name: 'Period 5',
+              startTime: '11:06',
+              duration: 41
+            },
+            {
+              name: 'Before Period 6',
+              startTime: '11:47',
+              duration: 5
+            },
+            {
+              name: 'Period 6',
+              startTime: '11:52',
+              duration: 41
+            },
+            {
+              name: 'Before Period 7',
+              startTime: '12:33',
+              duration: 5
+            },
+            {
+              name: 'Period 7',
+              startTime: '12:38',
+              duration: 41
+            },
+            {
+              name: 'Before Period 8',
+              startTime: '13:19',
+              duration: 5
+            },
+            {
+              name: 'Period 8',
+              startTime: '13:24',
+              duration: 41
+            },
+            {
+              name: 'Before Period 9',
+              startTime: '14:05',
+              duration: 4
+            },
+            {
+              name: 'Period 9',
+              startTime: '14:09',
+              duration: 41
+            },
+            {
+              name: 'Before Period 10',
+              startTime: '14:50',
+              duration: 4
+            },
+            {
+              name: 'Period 10',
+              startTime: '14:54',
+              duration: 41
+            },
+            {
+              name: 'After School',
+              startTime: '15:35',
+              duration: 504
+            }
+          ]
+        },
+        block: 'A1',
+        testing: 'WL, ELA & Health Testing',
+        announcement: 'AP Lit @ 8am, AP CS @ 12pm'
+      },
+      {
+        day: 'May 9, 2024',
         bell: {
           scheduleType: 'regular',
           scheduleName: 'Regular Schedule',
@@ -388,8 +510,130 @@ export default async function handler(req, res) {
           ]
         },
         block: 'B2',
-        testing: 'No Testing',
-        announcement: 'End of MP2; Band Spring Concert at 6:00 pm'
+        testing: 'Math, Music & Art Testing',
+        announcement: 'AP Chinese @ 8am, AP Psych @ 12pm'
+      },
+      {
+        day: 'May 10, 2024',
+        bell: {
+          scheduleType: 'regular',
+          scheduleName: 'Regular Schedule',
+          schedule: [
+            {
+              name: 'Before School',
+              startTime: '0:00',
+              duration: 420
+            },
+            {
+              name: 'Before Period 1',
+              startTime: '7:00',
+              duration: 60
+            },
+            {
+              name: 'Period 1',
+              startTime: '8:00',
+              duration: 41
+            },
+            {
+              name: 'Before Period 2',
+              startTime: '8:41',
+              duration: 4
+            },
+            {
+              name: 'Period 2',
+              startTime: '8:45',
+              duration: 41
+            },
+            {
+              name: 'Before Period 3',
+              startTime: '9:26',
+              duration: 5
+            },
+            {
+              name: 'Period 3',
+              startTime: '9:31',
+              duration: 44
+            },
+            {
+              name: 'Before Period 4',
+              startTime: '10:15',
+              duration: 5
+            },
+            {
+              name: 'Period 4',
+              startTime: '10:20',
+              duration: 41
+            },
+            {
+              name: 'Before Period 5',
+              startTime: '11:01',
+              duration: 5
+            },
+            {
+              name: 'Period 5',
+              startTime: '11:06',
+              duration: 41
+            },
+            {
+              name: 'Before Period 6',
+              startTime: '11:47',
+              duration: 5
+            },
+            {
+              name: 'Period 6',
+              startTime: '11:52',
+              duration: 41
+            },
+            {
+              name: 'Before Period 7',
+              startTime: '12:33',
+              duration: 5
+            },
+            {
+              name: 'Period 7',
+              startTime: '12:38',
+              duration: 41
+            },
+            {
+              name: 'Before Period 8',
+              startTime: '13:19',
+              duration: 5
+            },
+            {
+              name: 'Period 8',
+              startTime: '13:24',
+              duration: 41
+            },
+            {
+              name: 'Before Period 9',
+              startTime: '14:05',
+              duration: 4
+            },
+            {
+              name: 'Period 9',
+              startTime: '14:09',
+              duration: 41
+            },
+            {
+              name: 'Before Period 10',
+              startTime: '14:50',
+              duration: 4
+            },
+            {
+              name: 'Period 10',
+              startTime: '14:54',
+              duration: 41
+            },
+            {
+              name: 'After School',
+              startTime: '15:35',
+              duration: 504
+            }
+          ]
+        },
+        block: 'A2',
+        testing: 'CS, SS & Technology Testing',
+        announcement: 'Grades Due @ 8am, AP Euro @ 8am, AP Macro @ 12pm'
       }
     ]
   });
