@@ -26,129 +26,7 @@ export default async function handler(req, res) {
     scheduleType: 'week',
     days: [
       {
-        day: 'May 20, 2024',
-        bell: {
-          scheduleType: 'regular',
-          scheduleName: 'Regular Schedule',
-          schedule: [
-            {
-              name: 'Before School',
-              startTime: '0:00',
-              duration: 420
-            },
-            {
-              name: 'Before Period 1',
-              startTime: '7:00',
-              duration: 60
-            },
-            {
-              name: 'Period 1',
-              startTime: '8:00',
-              duration: 41
-            },
-            {
-              name: 'Before Period 2',
-              startTime: '8:41',
-              duration: 4
-            },
-            {
-              name: 'Period 2',
-              startTime: '8:45',
-              duration: 41
-            },
-            {
-              name: 'Before Period 3',
-              startTime: '9:26',
-              duration: 5
-            },
-            {
-              name: 'Period 3',
-              startTime: '9:31',
-              duration: 44
-            },
-            {
-              name: 'Before Period 4',
-              startTime: '10:15',
-              duration: 5
-            },
-            {
-              name: 'Period 4',
-              startTime: '10:20',
-              duration: 41
-            },
-            {
-              name: 'Before Period 5',
-              startTime: '11:01',
-              duration: 5
-            },
-            {
-              name: 'Period 5',
-              startTime: '11:06',
-              duration: 41
-            },
-            {
-              name: 'Before Period 6',
-              startTime: '11:47',
-              duration: 5
-            },
-            {
-              name: 'Period 6',
-              startTime: '11:52',
-              duration: 41
-            },
-            {
-              name: 'Before Period 7',
-              startTime: '12:33',
-              duration: 5
-            },
-            {
-              name: 'Period 7',
-              startTime: '12:38',
-              duration: 41
-            },
-            {
-              name: 'Before Period 8',
-              startTime: '13:19',
-              duration: 5
-            },
-            {
-              name: 'Period 8',
-              startTime: '13:24',
-              duration: 41
-            },
-            {
-              name: 'Before Period 9',
-              startTime: '14:05',
-              duration: 4
-            },
-            {
-              name: 'Period 9',
-              startTime: '14:09',
-              duration: 41
-            },
-            {
-              name: 'Before Period 10',
-              startTime: '14:50',
-              duration: 4
-            },
-            {
-              name: 'Period 10',
-              startTime: '14:54',
-              duration: 41
-            },
-            {
-              name: 'After School',
-              startTime: '15:35',
-              duration: 504
-            }
-          ]
-        },
-        block: 'A',
-        testing: 'Science Testing',
-        announcement: null
-      },
-      {
-        day: 'May 21, 2024',
+        day: 'May 28, 2024',
         bell: {
           scheduleType: 'regular',
           scheduleName: 'Regular Schedule',
@@ -270,7 +148,7 @@ export default async function handler(req, res) {
         announcement: null
       },
       {
-        day: 'May 22, 2024',
+        day: 'May 29, 2024',
         bell: {
           scheduleType: 'regular',
           scheduleName: 'Regular Schedule',
@@ -389,10 +267,10 @@ export default async function handler(req, res) {
         },
         block: 'A1',
         testing: 'WL, ELA & Health Testing',
-        announcement: 'APUSH @ 8am, APES @ 12pm, AP Japanese @ 12pm'
+        announcement: null
       },
       {
-        day: 'May 23, 2024',
+        day: 'May 30, 2024',
         bell: {
           scheduleType: 'regular',
           scheduleName: 'Regular Schedule',
@@ -511,10 +389,10 @@ export default async function handler(req, res) {
         },
         block: 'B2',
         testing: 'Math, Music & Art Testing',
-        announcement: 'AP Precalc @ 8am, AP French @ 12pm'
+        announcement: 'STC Spring Comedy: Harvey'
       },
       {
-        day: 'May 24, 2024',
+        day: 'May 31, 2024',
         bell: {
           scheduleType: 'regular',
           scheduleName: 'Regular Schedule',
@@ -633,7 +511,7 @@ export default async function handler(req, res) {
         },
         block: 'A2',
         testing: 'CS, SS & Technology Testing',
-        announcement: 'AP Calc BC @ 8am, AP Comp Gov @ 12pm, AP WH @ 12pm'
+        announcement: 'STC Spring Comedy: Harvey'
       }
     ]
   });
