@@ -18,48 +18,65 @@ bell name is: scheduletype_schedule
 scheduletype: regular, conference, homeroom
 
 see api/master-schedules.js for all bell schedules
+
+if there is school but no block make the block: 'N/A'
 */
 
 export default async function handler(req, res) {
-  res.setHeader('Cache-Control', 'public, max-age=3600');
-  res.status(200).json({
-    scheduleType: 'week',
-    days: [
-      {
-        day: 'June 17, 2024',
-        bell: null,
-        block: null,
-        testing: null,
-        announcement: 'Eid al-Adha (No School)'
-      },
-      {
-        day: 'June 18, 2024',
-        bell: null,
-        block: null,
-        testing: 'US History Regents (Morning)\nGlobal History Regents (Afternoon)',
-        announcement: null
-      },
-      {
-        day: 'June 19, 2024',
-        bell: null,
-        block: null,
-        testing: null,
-        announcement: 'Juneteenth (No School)'
-      },
-      {
-        day: 'June 20, 2024',
-        bell: null,
-        block: null,
-        testing: 'Chemistry Regents (Afternoon)',
-        announcement: 'Senior Graduation 11:00am at the United Palace Theatre'
-      },
-      {
-        day: 'June 21, 2024',
-        bell: null,
-        block: null,
-        testing: 'Geometry Regents (Morning)',
-        announcement: 'All Grades and Senior Grades Due 8:00am'
-      }
-    ]
-  });
+    res.setHeader('Cache-Control', 'public, max-age=3600');
+    res.status(200).json({
+        scheduleType: 'week',
+        days: [
+            {
+                day: 'June 24, 2024',
+                bell: null,
+                block: null,
+                testing: 'Algebra II Regents (Morning)\nLOTE (Afternoon)',
+                announcement: null
+            },
+            {
+                day: 'June 25, 2024',
+                bell: null,
+                block: null,
+                testing: 'Physics Regents (Morning)',
+                announcement: null
+            },
+            {
+                day: 'June 26, 2024',
+                bell: {
+                    scheduleType: 'homeroom',
+                    scheduleName: 'Homeroom Schedule',
+                    schedule: [
+                        {
+                            name: 'Before Homeroom',
+                            startTime: '8:15',
+                            duration: 60
+                        },
+                        {
+                            name: 'Homeroom',
+                            startTime: '9:15',
+                            duration: 105
+                        },
+                    ]
+                },
+                block: 'N/A',
+                testing: 'No Testing',
+                announcement: 'Last Day of School\nNon-Attendance Day for non-Seniors\nSeniors Pick up Diplomas at Homeroom\nDistribution of Report Cards (Electronically)'
+            },
+            {
+                day: 'June 27, 2024',
+                bell: null,
+                block: null,
+                testing: 'No Testing',
+                announcement: null
+            },
+            {
+                day: 'June 28, 2024',
+                bell: null,
+                block: null,
+                testing: 'No Testing',
+                announcement: 'Last Day for 10 Month Supervisors, School Counselors & Secretaries'
+            }
+        ]
+    });
 }
