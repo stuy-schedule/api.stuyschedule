@@ -28,55 +28,54 @@ export default async function handler(req, res) {
         scheduleType: 'week',
         days: [
             {
-                day: 'June 24, 2024',
-                bell: null,
-                block: null,
-                testing: 'Algebra II Regents (Morning)\nLOTE (Afternoon)',
-                announcement: null
-            },
-            {
-                day: 'June 25, 2024',
-                bell: null,
-                block: null,
-                testing: 'Physics Regents (Morning)',
-                announcement: null
-            },
-            {
-                day: 'June 26, 2024',
-                bell: {
-                    scheduleType: 'homeroom',
-                    scheduleName: 'Homeroom Schedule',
-                    schedule: [
-                        {
-                            name: 'Before Homeroom',
-                            startTime: '8:15',
-                            duration: 60
-                        },
-                        {
-                            name: 'Homeroom',
-                            startTime: '9:15',
-                            duration: 105
-                        },
-                    ]
-                },
-                block: 'N/A',
-                testing: 'No Testing',
-                announcement: 'Last Day of School\nNon-Attendance Day for non-Seniors\nSeniors Pick up Diplomas at Homeroom\nDistribution of Report Cards (Electronically)'
-            },
-            {
-                day: 'June 27, 2024',
+                day: 'June 30, 2024',
                 bell: null,
                 block: null,
                 testing: 'No Testing',
-                announcement: null
+                announcement: 'Have a great summer!'
             },
             {
-                day: 'June 28, 2024',
+                day: 'July 1, 2024',
                 bell: null,
                 block: null,
                 testing: 'No Testing',
-                announcement: 'Last Day for 10 Month Supervisors, School Counselors & Secretaries'
-            }
+                announcement: 'Have a great summer!'
+            },
+            {
+                day: 'July 2, 2024',
+                bell: null,
+                block: null,
+                testing: 'No Testing',
+                announcement: 'Have a great summer!'
+            },
+            {
+                day: 'July 3, 2024',
+                bell: null,
+                block: null,
+                testing: 'No Testing',
+                announcement: 'Have a great summer!'
+            },
+            {
+                day: 'July 4, 2024',
+                bell: null,
+                block: null,
+                testing: 'No Testing',
+                announcement: 'Have a great summer!'
+            },
+            {
+                day: 'July 5, 2024',
+                bell: null,
+                block: null,
+                testing: 'No Testing',
+                announcement: 'Have a great summer!'
+            },
+            {
+                day: 'July 6, 2024',
+                bell: null,
+                block: null,
+                testing: 'No Testing',
+                announcement: 'Have a great summer!'
+            },
         ]
     });
 }
