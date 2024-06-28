@@ -28,6 +28,20 @@ export default async function handler(req, res) {
         scheduleType: 'week',
         days: [
             {
+                day: 'June 28, 2024',
+                bell: null,
+                block: null,
+                testing: 'No Testing',
+                announcement: 'Have a great summer!'
+            },
+            {
+                day: 'June 29, 2024',
+                bell: null,
+                block: null,
+                testing: 'No Testing',
+                announcement: 'Have a great summer!'
+            },
+            {
                 day: 'June 30, 2024',
                 bell: null,
                 block: null,
