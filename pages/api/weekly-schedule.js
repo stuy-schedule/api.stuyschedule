@@ -28,63 +28,49 @@ export default async function handler(req, res) {
         scheduleType: 'week',
         days: [
             {
-                day: 'June 28, 2024',
+                day: 'June 7, 2024',
                 bell: null,
                 block: null,
                 testing: 'No Testing',
                 announcement: 'Have a great summer!'
             },
             {
-                day: 'June 29, 2024',
+                day: 'July 8, 2024',
                 bell: null,
                 block: null,
                 testing: 'No Testing',
                 announcement: 'Have a great summer!'
             },
             {
-                day: 'June 30, 2024',
+                day: 'July 9, 2024',
                 bell: null,
                 block: null,
                 testing: 'No Testing',
                 announcement: 'Have a great summer!'
             },
             {
-                day: 'July 1, 2024',
+                day: 'July 10, 2024',
                 bell: null,
                 block: null,
                 testing: 'No Testing',
                 announcement: 'Have a great summer!'
             },
             {
-                day: 'July 2, 2024',
+                day: 'July 11, 2024',
                 bell: null,
                 block: null,
                 testing: 'No Testing',
                 announcement: 'Have a great summer!'
             },
             {
-                day: 'July 3, 2024',
+                day: 'July 12, 2024',
                 bell: null,
                 block: null,
                 testing: 'No Testing',
                 announcement: 'Have a great summer!'
             },
             {
-                day: 'July 4, 2024',
-                bell: null,
-                block: null,
-                testing: 'No Testing',
-                announcement: 'Have a great summer!'
-            },
-            {
-                day: 'July 5, 2024',
-                bell: null,
-                block: null,
-                testing: 'No Testing',
-                announcement: 'Have a great summer!'
-            },
-            {
-                day: 'July 6, 2024',
+                day: 'July 13, 2024',
                 bell: null,
                 block: null,
                 testing: 'No Testing',
