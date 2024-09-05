@@ -28,7 +28,7 @@ export default async function handler(req, res) {
         scheduleType: 'week',
         days: [
             {
-                day: 'Sept 7, 2024',
+                day: 'Sept 5, 2024',
                 bell: {
                     scheduleType: 'firstweek',
                     scheduleName: 'First Week Schedule',
@@ -150,7 +150,7 @@ export default async function handler(req, res) {
                 announcement: 'First day of school!'
             },
             {
-                day: 'Sept 8, 2024',
+                day: 'Sept 6, 2024',
                 bell: {
                     scheduleType: 'regular',
                     scheduleName: 'Regular Schedule',
