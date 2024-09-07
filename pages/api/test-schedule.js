@@ -7,7 +7,7 @@ scheduleType, days, day, and testing will NEVER BE null.
 bell name is: scheduletype_schedule
 scheduletype: regular, conference, homeroom
 
-see api/master-schedules.js for all bell schedules
+see api/master-schedules.ts for all bell schedules
 */
 
 export default function handler(req, res) {
