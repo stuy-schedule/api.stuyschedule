@@ -28,39 +28,39 @@ const WEEKLY_SCHEDULE: Schedule = {
     scheduleType: 'week',
     days: [
         {
-            day: 'September 16, 2024',
+            day: 'September 23, 2024',
             bell: BellType.REGULAR,
-            block: Block.B,
+            block: Block.A,
             testing: 'Science Testing',
             announcement: null
         },
         {
-            day: 'September 17, 2024',
-            bell: BellType.REGULAR,
-            block: Block.A1,
-            testing: 'Science Testing',
-            announcement: null
-        },
-        {
-            day: 'September 18, 2024',
+            day: 'September 24, 2024',
             bell: BellType.REGULAR,
             block: Block.B1,
+            testing: 'Science Testing',
+            announcement: null
+        },
+        {
+            day: 'September 25, 2024',
+            bell: BellType.REGULAR,
+            block: Block.A1,
             testing: 'WL, ELA & Health Testing',
             announcement: null
         },
         {
-            day: 'September 19, 2024',
+            day: 'September 26, 2024',
             bell: BellType.REGULAR,
-            block: Block.A2,
+            block: Block.B2,
             testing: 'Math, Music & Art Testing',
             announcement: null
         },
         {
-            day: 'September 20, 2024',
+            day: 'September 27, 2024',
             bell: BellType.REGULAR,
-            block: Block.B2,
+            block: Block.A2,
             testing: 'CS, SS & Technology Testing',
-            announcement: null
+            announcement: 'ARISTA Induction Ceremony 5:30pm (in person)',
         },
     ]
 };
