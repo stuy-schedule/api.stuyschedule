@@ -591,7 +591,7 @@ const BellType = {
         scheduleName: 'PSAT Schedule',
         schedule: [
             {
-                name: 'Before School Open',
+                name: 'Before School Opens',
                 startTime: '6:30',
                 duration: 60
             },
@@ -601,7 +601,7 @@ const BellType = {
                 duration: 30
             },
             {
-                name: 'Report to Testing Rooms and complete PSAT Pre-administration',
+                name: 'Report to Testing Rooms',
                 startTime: '8:15',
                 duration: 45
             },
