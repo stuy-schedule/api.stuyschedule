@@ -598,7 +598,7 @@ const BellType = {
             {
                 name: 'School Open',
                 startTime: '7:30',
-                duration: 30
+                duration: 45
             },
             {
                 name: 'Report to Testing Rooms',
