@@ -601,44 +601,74 @@ const BellType = {
                 duration: 30
             },
             {
-                name: 'Report to Testing Rooms',
-                startTime: '8:00',
-                duration: 15
-            },
-            {
-                name: 'Before PSAT Begins',
+                name: 'Report to Testing Rooms and complete PSAT Pre-administration',
                 startTime: '8:15',
-                duration: 15
+                duration: 45
             },
             {
                 name: 'PSAT',
-                startTime: '8:30',
-                duration: 210
-            },
-            {
-                name: 'Before Lunch',
-                startTime: '12:00',
-                duration: 15
+                startTime: '9:00',
+                duration: 180
             },
             {
                 name: 'Lunch',
-                startTime: '12:15',
-                duration: 90
+                startTime: '12:00',
+                duration: 50
             },
             {
-                name: 'Before Homeroom',
-                startTime: '13:45',
-                duration: 5
+                name: 'Before Period 1',
+                startTime: '12:50',
+                duration: 4
             },
             {
-                name: 'Homeroom',
-                startTime: '13:50',
-                duration: 60
+                name: 'Period 1',
+                startTime: '12:54',
+                duration: 20
+            },
+            {
+                name: 'Before Period 2',
+                startTime: '13:14',
+                duration: 4
+            },
+            {
+                name: 'Period 2',
+                startTime: '13:18',
+                duration: 20
+            },
+            {
+                name: 'Before Period 3',
+                startTime: '13:38',
+                duration: 4
+            },
+            {
+                name: 'Period 3',
+                startTime: '13:42',
+                duration: 20
+            },
+            {
+                name: 'Before Period 4',
+                startTime: '14:02',
+                duration: 4
+            },
+            {
+                name: 'Period 4',
+                startTime: '14:06',
+                duration: 20
+            },
+            {
+                name: 'Before Period 5',
+                startTime: '14:26',
+                duration: 4
+            },
+            {
+                name: 'Period 5',
+                startTime: '14:30',
+                duration: 20
             },
             {
                 name: 'After School',
                 startTime: '14:50',
-                duration: 30
+                duration: 549
             }
         ]
     },
