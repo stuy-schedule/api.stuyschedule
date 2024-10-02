@@ -668,7 +668,7 @@ const BellType = {
             {
                 name: 'After School',
                 startTime: '14:50',
-                duration: 549
+                duration: 180
             }
         ]
     },
