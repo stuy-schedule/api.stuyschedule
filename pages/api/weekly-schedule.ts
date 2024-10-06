@@ -28,39 +28,39 @@ const WEEKLY_SCHEDULE: Schedule = {
     scheduleType: 'week',
     days: [
         {
-            day: 'September 30, 2024',
+            day: 'October 7, 2024',
             bell: BellType.REGULAR,
-            block: Block.B,
-            testing: 'No Testing',
+            block: Block.A,
+            testing: 'Science Testing',
             announcement: null
         },
         {
-            day: 'October 1, 2024',
-            bell: BellType.PSAT,
-            block: Block.A,
-            testing: 'No Testing',
-            announcement: 'PSAT/NMSQT for grade 10\nSchool schedule: Periods 1-5'
+            day: 'October 8, 2024',
+            bell: BellType.REGULAR,
+            block: Block.B1,
+            testing: 'Science Testing',
+            announcement: null
         },
         {
-            day: 'October 2, 2024',
-            bell: BellType.PSAT,
-            block: Block.B,
-            testing: 'No Testing',
-            announcement: 'PSAT/NMSQT for grade 10\nSchool schedule: Periods 6-10'
+            day: 'October 9, 2024',
+            bell: BellType.CONFERENCE,
+            block: Block.A1,
+            testing: 'WL, ELA, and Health Testing',
+            announcement: null
         },
         {
-            day: 'October 3, 2024',
-            bell: null,
-            block: null,
-            testing: 'No Testing',
-            announcement: 'School closed for observance of Rosh Hashanah'
+            day: 'October 10, 2024',
+            bell: BellType.REGULAR,
+            block: Block.B2,
+            testing: 'Math, Music, and Art Testing',
+            announcement: 'Annual Hispanic Heritage Dinner at 4:30pm in the cafeteria'
         },
         {
-            day: 'October 4, 2024',
-            bell: null,
-            block: null,
-            testing: 'No Testing',
-            announcement: 'School closed for observance of Rosh Hashanah',
+            day: 'October 11, 2024',
+            bell: BellType.REGULAR,
+            block: Block.A2,
+            testing: 'CS, SS, and Technology Testing',
+            announcement: null,
         },
     ]
 };
