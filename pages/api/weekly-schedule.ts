@@ -36,7 +36,7 @@ const WEEKLY_SCHEDULE: Schedule = {
         },
         {
             day: 'October 15, 2024',
-            bell: BellType.homeroom,
+            bell: BellType.HOMEROOM,
             block: Block.B1,
             testing: 'Science Testing',
             announcement: 'Distribution of ID stickers'
