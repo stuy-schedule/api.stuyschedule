@@ -28,39 +28,39 @@ const WEEKLY_SCHEDULE: Schedule = {
     scheduleType: 'week',
     days: [
         {
-            day: 'October 7, 2024',
-            bell: BellType.REGULAR,
-            block: Block.A,
-            testing: 'Science Testing',
-            announcement: null
+            day: 'October 14, 2024',
+            bell: null,
+            block: null,
+            testing: 'No Testing',
+            announcement: 'No School -- Italian Heritage & Indigenous Peoples Day',
         },
         {
-            day: 'October 8, 2024',
-            bell: BellType.REGULAR,
+            day: 'October 15, 2024',
+            bell: BellType.homeroom,
             block: Block.B1,
             testing: 'Science Testing',
-            announcement: null
+            announcement: 'Distribution of ID stickers'
         },
         {
-            day: 'October 9, 2024',
-            bell: BellType.CONFERENCE,
+            day: 'October 16, 2024',
+            bell: BellType.REGULAR,
             block: Block.A1,
             testing: 'WL, ELA, and Health Testing',
-            announcement: null
+            announcement: 'Fall Open House - 5:00 - 8:00 pm'
         },
         {
-            day: 'October 10, 2024',
+            day: 'October 17, 2024',
             bell: BellType.REGULAR,
             block: Block.B2,
             testing: 'Math, Music, and Art Testing',
-            announcement: 'Annual Hispanic Heritage Dinner at 4:30pm in the cafeteria'
+            announcement: 'Fall Open House - 5:00 - 8:00 pm'
         },
         {
-            day: 'October 11, 2024',
+            day: 'October 18, 2024',
             bell: BellType.REGULAR,
             block: Block.A2,
             testing: 'CS, SS, and Technology Testing',
-            announcement: null,
+            announcement: 'End of MP1',
         },
     ]
 };
