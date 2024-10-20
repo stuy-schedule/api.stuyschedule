@@ -74,7 +74,7 @@ const WEEKLY_SCHEDULE: Schedule = {
                     {
                         name: 'Report to Testing Rooms',
                         startTime: '8:15',
-                        duration: 45
+                        duration: 30
                     },
                     {
                         name: 'PSAT',
