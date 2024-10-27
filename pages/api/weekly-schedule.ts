@@ -28,84 +28,39 @@ const WEEKLY_SCHEDULE: Schedule = {
     scheduleType: 'week',
     days: [
         {
-            day: 'October 21, 2024',
+            day: 'October 28, 2024',
             bell: BellType.REGULAR,
-            block: Block.B1,
+            block: Block.A1,
             testing: 'Science Testing',
             announcement: null,
         },
         {
-            day: 'October 22, 2024',
+            day: 'October 29, 2024',
             bell: BellType.REGULAR,
-            block: Block.A1,
+            block: Block.B1,
             testing: 'WL, ELA, and Health Testing',
-            announcement: null,
+            announcement: 'Distribution of Report Cards',
         },
         {
-            day: 'October 23, 2024',
+            day: 'October 30, 2024',
             bell: BellType.REGULAR,
-            block: Block.B2,
+            block: Block.A2,
             testing: 'Math, Music, and Art Testing',
             announcement: null,
         },
         {
-            day: 'October 24, 2024',
-            bell: BellType.REGULAR,
-            block: Block.A2,
+            day: 'October 31, 2024',
+            bell: BellType.EXTENDED_HOMEROOM,
+            block: Block.B2,
             testing: 'CS, SS, and Technology Testing',
-            announcement: null,
+            announcement: 'BooGram and National Merit Certificate Distributions',
         },
         {
-            day: 'October 25, 2024',
-            bell: {
-                scheduleType: 'special',
-                scheduleName: 'Special Schedule',
-                schedule: [
-                    {
-                        name: 'Before School Opens',
-                        startTime: '6:30',
-                        duration: 60
-                    },
-                    {
-                        name: 'Breakfast for Juniors',
-                        startTime: '7:30',
-                        duration: 45
-                    },
-                    {
-                        name: 'Report to Testing Rooms',
-                        startTime: '8:15',
-                        duration: 30
-                    },
-                    {
-                        name: 'PSAT',
-                        startTime: '8:45',
-                        duration: 195
-                    },
-                    {
-                        name: 'Lunch',
-                        startTime: '12:00',
-                        duration: 50
-                    },
-                    {
-                        name: 'Before Career Fair',
-                        startTime: '12:50',
-                        duration: 4
-                    },
-                    {
-                        name: 'Career Fair',
-                        startTime: '12:54',
-                        duration: 116
-                    },
-                    {
-                        name: 'After School',
-                        startTime: '14:50',
-                        duration: 180
-                    }
-                ]
-            },
-            block: Block.B,
+            day: 'November 1, 2024',
+            bell: null,
+            block: null,
             testing: 'No Testing',
-            announcement: 'Morning PSAT for Juniors\nAfternoon Career Fair\nSTC Fall Musical',
+            announcement: 'No School in Observance of Diwali',
         },
     ]
 };
