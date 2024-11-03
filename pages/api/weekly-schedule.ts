@@ -28,39 +28,39 @@ const WEEKLY_SCHEDULE: Schedule = {
     scheduleType: 'week',
     days: [
         {
-            day: 'October 28, 2024',
+            day: 'November 4, 2024',
             bell: BellType.REGULAR,
             block: Block.A1,
             testing: 'Science Testing',
             announcement: null,
         },
         {
-            day: 'October 29, 2024',
-            bell: BellType.REGULAR,
-            block: Block.B1,
-            testing: 'WL, ELA, and Health Testing',
-            announcement: 'Distribution of Report Cards',
-        },
-        {
-            day: 'October 30, 2024',
-            bell: BellType.REGULAR,
-            block: Block.A2,
-            testing: 'Math, Music, and Art Testing',
-            announcement: null,
-        },
-        {
-            day: 'October 31, 2024',
-            bell: BellType.EXTENDED_HOMEROOM,
-            block: Block.B2,
-            testing: 'CS, SS, and Technology Testing',
-            announcement: 'BooGram and National Merit Certificate Distributions',
-        },
-        {
-            day: 'November 1, 2024',
+            day: 'November 5, 2024',
             bell: null,
             block: null,
             testing: 'No Testing',
-            announcement: 'No School in Observance of Diwali',
+            announcement: 'Election Day',
+        },
+        {
+            day: 'November 6, 2024',
+            bell: BellType.REGULAR,
+            block: Block.B1,
+            testing: 'No Testing',
+            announcement: 'AMC Exam',
+        },
+        {
+            day: 'November 7, 2024',
+            bell: BellType.REGULAR,
+            block: Block.A2,
+            testing: 'Math, Music, Art, and Technology Testing',
+            announcement: null,
+        },
+        {
+            day: 'November 8, 2024',
+            bell: BellType.REGULAR,
+            block: Block.B2,
+            testing: 'WL, ELA, CS, and SS Testing',
+            announcement: null
         },
     ]
 };
