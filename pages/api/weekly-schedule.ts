@@ -28,39 +28,39 @@ const WEEKLY_SCHEDULE: Schedule = {
     scheduleType: 'week',
     days: [
         {
-            day: 'November 11, 2024',
-            bell: null,
-            block: null,
-            testing: 'No Testing',
-            announcement: 'Veterans Day',
-        },
-        {
-            day: 'November 12, 2024',
+            day: 'November 18, 2024',
             bell: BellType.REGULAR,
             block: Block.A1,
-            testing: 'No Testing',
-            announcement: 'AMC Exam, Pds. 1 & 2',
-        },
-        {
-            day: 'November 13, 2024',
-            bell: BellType.REGULAR,
-            block: Block.B1,
             testing: 'Science Testing',
             announcement: null,
         },
         {
-            day: 'November 14, 2024',
+            day: 'November 19, 2024',
             bell: BellType.REGULAR,
-            block: Block.A2,
-            testing: 'Math, Music, Art, and Technology Testing',
+            block: Block.B1,
+            testing: 'WL, ELA, and Health Testing',
             announcement: null,
         },
         {
-            day: 'November 15, 2024',
+            day: 'November 20, 2024',
+            bell: BellType.REGULAR,
+            block: Block.A2,
+            testing: 'Math, Music, and Art Testing',
+            announcement: null,
+        },
+        {
+            day: 'November 21, 2024',
             bell: BellType.REGULAR,
             block: Block.B2,
-            testing: 'WL, ELA, CS, and SS Testing',
-            announcement: null
+            testing: 'CS, SS, and Technology Testing',
+            announcement: 'Parent-Teacher Conferences from 5:30 to 8:30 PM (remote)',
+        },
+        {
+            day: 'November 22, 2024',
+            bell: BellType.HALF_DAY,
+            block: Block.A,
+            testing: 'No Testing',
+            announcement: 'Parent-Teacher Conferences from 1:00 to 3:00 PM (remote)',
         },
     ]
 };
