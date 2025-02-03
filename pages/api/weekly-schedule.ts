@@ -30,7 +30,7 @@ const WEEKLY_SCHEDULE: Schedule = {
         {
             day: 'February 3, 2025',
             bell: BellType.REGULAR,
-            block: Block.A,
+            block: Block.B,
             testing: 'Science Testing',
             announcement: null,
         },
