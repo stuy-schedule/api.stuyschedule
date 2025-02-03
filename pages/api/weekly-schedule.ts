@@ -43,7 +43,7 @@ const WEEKLY_SCHEDULE: Schedule = {
         },
         {
             day: 'February 5, 2025',
-            bell: BellType.CONFERENCE,
+            bell: BellType.REGULAR,
             block: Block.B1,
             testing: 'WL, ELA, Health Testing',
             announcement: null,
