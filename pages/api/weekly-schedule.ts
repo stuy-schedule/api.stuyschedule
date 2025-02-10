@@ -60,7 +60,7 @@ const WEEKLY_SCHEDULE: Schedule = {
             bell: BellType.EXTENDED_HOMEROOM,
             block: Block.A2,
             testing: 'CS, SS, and Technology Testing',
-            announcement: null,
+            announcement: 'Love will find a way through paths where wolves fear to prey',
         },
     ]
 };
