@@ -2,9 +2,9 @@
 
 // import rateLimit from "express-rate-limit";
 
-import { logRequest } from './middleware';
-import BellType from 'schema/master-schedules';
-import { Schedule, Block } from 'schema/schema';
+import { logRequest } from "./middleware";
+import BellType from "schema/master-schedules";
+import { Schedule, Block } from "schema/schema";
 
 // const limiter = rateLimit({
 //     windowMs: 15 * 60 * 1000, // 15 minutes
@@ -25,47 +25,51 @@ if there is school but no block make the block: 'N/A'
 */
 
 const WEEKLY_SCHEDULE: Schedule = {
-    scheduleType: 'week',
-    days: [
-        {
-            day: 'May 12, 2025',
-            bell: BellType.REGULAR,
-            block: Block.A,
-            testing: 'Science Testing',
-            announcement: null,
-        },
-        {
-            day: 'May 13, 2025',
-            bell: BellType.REGULAR,
-            block: Block.B1,
-            testing: 'Science Testing',
-            announcement: null,
-        },
-        {
-            day: 'May 14, 2025',
-            bell: BellType.REGULAR,
-            block: Block.A1,
-            testing: 'WL, ELA, and Health Testing',
-            announcement: null,
-        },
-        {
-            day: 'May 15, 2025',
-            bell: BellType.REGULAR,
-            block: Block.B2,
-            testing: 'Math, Music, and Art Testing',
-            announcement: null,
-        },
-        {
-            day: 'May 16, 2025',
-            bell: BellType.REGULAR,
-            block: Block.A2,
-            testing: 'CS, SS, and Technology Testing',
-            announcement: null,
-        },
-    ]
+  scheduleType: "week",
+  days: [
+    {
+      day: "May 19, 2025",
+      bell: BellType.REGULAR,
+      block: Block.B,
+      testing: "Science Testing",
+      announcement: null,
+    },
+
+    {
+      day: "May 20, 2025",
+      bell: BellType.REGULAR,
+      block: Block.A1,
+      testing: "Science Testing",
+      announcement: null,
+    },
+
+    {
+      day: "May 21, 2025",
+      bell: BellType.CONFERENCE,
+      block: Block.B1,
+      testing: "WL, ELA, and Health Testing",
+      announcement: null,
+    },
+
+    {
+      day: "May 22, 2025",
+      bell: BellType.REGULAR,
+      block: Block.A2,
+      testing: "Math, Music, and Art Testing",
+      announcement: null,
+    },
+
+    {
+      day: "May 23, 2025",
+      bell: BellType.REGULAR,
+      block: Block.B2,
+      testing: "CS, SS, and Technology Testing",
+      announcement: null,
+    },
+  ],
 };
 
 export default async function handler(req, res) {
-    res.setHeader('Cache-Control', 'public, max-age=3600');
-    res.status(200).json(WEEKLY_SCHEDULE);
-};
+  res.setHeader("Cache-Control", "public, max-age=3600");
+  res.status(200).json(WEEKLY_SCHEDULE);
+}
