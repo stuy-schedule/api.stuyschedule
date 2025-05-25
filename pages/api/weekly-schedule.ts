@@ -28,15 +28,15 @@ const WEEKLY_SCHEDULE: Schedule = {
   scheduleType: "week",
   days: [
     {
-      day: "May 19, 2025",
-      bell: BellType.REGULAR,
-      block: Block.B,
-      testing: "Science Testing",
-      announcement: null,
+      day: "May 26, 2025",
+      bell: null,
+      block: null,
+      testing: "No Testing",
+      announcement: "Memorial Day: Remembering Veterans",
     },
 
     {
-      day: "May 20, 2025",
+      day: "May 27, 2025",
       bell: BellType.REGULAR,
       block: Block.A1,
       testing: "Science Testing",
@@ -44,15 +44,15 @@ const WEEKLY_SCHEDULE: Schedule = {
     },
 
     {
-      day: "May 21, 2025",
-      bell: BellType.CONFERENCE,
+      day: "May 28, 2025",
+      bell: BellType.REGULAR,
       block: Block.B1,
       testing: "WL, ELA, and Health Testing",
       announcement: null,
     },
 
     {
-      day: "May 22, 2025",
+      day: "May 29, 2025",
       bell: BellType.REGULAR,
       block: Block.A2,
       testing: "Math, Music, and Art Testing",
@@ -60,7 +60,7 @@ const WEEKLY_SCHEDULE: Schedule = {
     },
 
     {
-      day: "May 23, 2025",
+      day: "May 30, 2025",
       bell: BellType.REGULAR,
       block: Block.B2,
       testing: "CS, SS, and Technology Testing",
