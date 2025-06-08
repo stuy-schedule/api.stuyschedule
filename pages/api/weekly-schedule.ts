@@ -28,43 +28,43 @@ const WEEKLY_SCHEDULE: Schedule = {
   scheduleType: "week",
   days: [
     {
-      day: "June 2, 2025",
+      day: "June 9, 2025",
       bell: BellType.REGULAR,
       block: Block.A1,
-      testing: "Science and Health Testing",
+      testing: "Science Testing",
       announcement: null,
     },
 
     {
-      day: "June 3, 2025",
-      bell: BellType.REGULAR,
-      block: Block.B1,
-      testing: "WL, ELA, and Health Testing",
-      announcement: null,
-    },
-
-    {
-      day: "June 4, 2025",
-      bell: BellType.REGULAR,
-      block: Block.A2,
-      testing: "Math, Music and Art Testing",
-      announcement: null,
-    },
-
-    {
-      day: "June 5, 2025",
+      day: "June 10, 2025",
       bell: null,
       block: null,
-      testing: "No Testing",
-      announcement: "No School in Observance of Eid al-Adha",
+      testing: "Biology Morning Regents",
+      announcement: null,
     },
 
     {
-      day: "June 6, 2025",
-      bell: BellType.REGULAR,
-      block: Block.B2,
-      testing: "CS, SS, and Technology Testing",
+      day: "June 11, 2025",
+      bell: null,
+      block: null,
+      testing: "Geometry Morning Regents",
       announcement: null,
+    },
+
+    {
+      day: "June 12, 2025",
+      bell: BellType.REGULAR,
+      block: Block.B1,
+      testing: "Math, Music, Art, and Technology Testing",
+      announcement: null,
+    },
+
+    {
+      day: "June 13, 2025",
+      bell: BellType.REGULAR,
+      block: Block.A2,
+      testing: "WL, ELA, CS, SS, and Health Testing",
+      announcement: "Clear out your lockers! Seniors: return borrowed items!",
     },
   ],
 };
