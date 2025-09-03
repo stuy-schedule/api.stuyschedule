@@ -58,14 +58,14 @@ const WEEKLY_SCHEDULE: Schedule = {
       bell: BellType.FIRST_WEEK,
       block: Block.A,
       testing: "No Testing",
-      announcement: "Observance of Juneteeth",
+      announcement: "First Day of School!",
     },
 
     {
-      day: "June 20, 2025",
+      day: "September 5, 2025",
       bell: BellType.REGULAR,
       block: Block.B,
-      testing: "U.S. History Regents",
+      testing: "No Testing",
       announcement: null,
     },
   ],
