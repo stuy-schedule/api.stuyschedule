@@ -22,47 +22,49 @@ scheduletype: regular, conference, homeroom
 see api/master-schedules.ts for all bell schedules
 
 if there is school but no block make the block: 'N/A'
+
+if there is no school make the bell & block to null.
 */
 
 const WEEKLY_SCHEDULE: Schedule = {
   scheduleType: "week",
   days: [
     {
-      day: "June 16, 2025",
-      bell: BellType.REGULAR,
-      block: Block.B2,
+      day: "September 1, 2025",
+      bell: null,
+      block: null,
       testing: "No Testing",
-      announcement: null,
+      announcement: "Summer Break -- No School",
     },
 
     {
-      day: "June 17, 2025",
+      day: "September 2, 2025",
       bell: null,
       block: null,
-      testing: "ELA Regents",
-      announcement: null,
+      testing: "No Testing",
+      announcement: "Summer Break -- No School",
     },
 
     {
-      day: "June 18, 2025",
+      day: "September 3, 2025",
       bell: null,
       block: null,
-      testing: "Global & Alg. I Regents",
-      announcement: null,
+      testing: "No Testing",
+      announcement: "Summer Break -- No School",
     },
 
     {
-      day: "June 19, 2025",
-      bell: null,
-      block: null,
+      day: "September 4, 2025",
+      bell: BellType.FIRST_WEEK,
+      block: Block.A,
       testing: "No Testing",
       announcement: "Observance of Juneteeth",
     },
 
     {
       day: "June 20, 2025",
-      bell: null,
-      block: null,
+      bell: BellType.REGULAR,
+      block: Block.B,
       testing: "U.S. History Regents",
       announcement: null,
     },
