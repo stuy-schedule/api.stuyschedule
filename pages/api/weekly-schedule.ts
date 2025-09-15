@@ -30,42 +30,42 @@ const WEEKLY_SCHEDULE: Schedule = {
   scheduleType: "week",
   days: [
     {
-      day: "September 8, 2025",
-      bell: BellType.REGULAR,
-      block: Block.A,
-      testing: "No Testing",
-      announcement: null,
-    },
-
-    {
-      day: "September 9, 2025",
-      bell: BellType.REGULAR,
+      day: "September 15, 2025",
+      bell: BellType.HOMEROOM,
       block: Block.B,
-      testing: "No Testing",
+      testing: "Science Testing",
       announcement: null,
     },
 
     {
-      day: "September 10, 2025",
+      day: "September 16, 2025",
       bell: BellType.REGULAR,
       block: Block.A1,
-      testing: "No Testing",
+      testing: "Science Testing",
       announcement: null,
     },
 
     {
-      day: "September 11, 2025",
+      day: "September 17, 2025",
       bell: BellType.REGULAR,
       block: Block.B1,
-      testing: "No Testing",
+      testing: "WL, ELA, Health Testing",
       announcement: null,
     },
 
     {
-      day: "September 12, 2025",
+      day: "September 18, 2025",
       bell: BellType.REGULAR,
       block: Block.A2,
-      testing: "No Testing",
+      testing: "Math, Music, Art Testing",
+      announcement: null,
+    },
+
+    {
+      day: "September 19, 2025",
+      bell: BellType.REGULAR,
+      block: Block.B2,
+      testing: "CS, Social Studies, Technology Testing",
       announcement: null,
     },
   ],
