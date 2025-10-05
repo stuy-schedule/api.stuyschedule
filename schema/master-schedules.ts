@@ -591,7 +591,7 @@ const BellType = {
     scheduleName: "PSAT Schedule",
     schedule: [
       {
-        name: "Before School Opens",
+        name: "Before School Open",
         startTime: "6:30",
         duration: 60,
       },
@@ -603,75 +603,121 @@ const BellType = {
       {
         name: "Report to Testing Rooms",
         startTime: "8:15",
-        duration: 45,
+        duration: 15,
       },
       {
         name: "PSAT",
-        startTime: "9:00",
-        duration: 180,
-      },
-      {
-        name: "Lunch",
-        startTime: "12:00",
-        duration: 50,
+        startTime: "8:30",
+        duration: 210,
       },
       {
         name: "Before Period 1",
-        startTime: "12:50",
-        duration: 4,
+        startTime: "12:00",
+        duration: 54,
       },
       {
         name: "Period 1",
         startTime: "12:54",
-        duration: 20,
+        duration: 8,
       },
       {
         name: "Before Period 2",
-        startTime: "13:14",
+        startTime: "13:02",
         duration: 4,
       },
       {
         name: "Period 2",
-        startTime: "13:18",
-        duration: 20,
+        startTime: "13:06",
+        duration: 8,
       },
       {
         name: "Before Period 3",
-        startTime: "13:38",
+        startTime: "13:14",
         duration: 4,
       },
       {
         name: "Period 3",
-        startTime: "13:42",
-        duration: 20,
+        startTime: "13:18",
+        duration: 8,
       },
       {
         name: "Before Period 4",
-        startTime: "14:02",
+        startTime: "13:26",
         duration: 4,
       },
       {
         name: "Period 4",
-        startTime: "14:06",
-        duration: 20,
+        startTime: "13:30",
+        duration: 8,
       },
       {
         name: "Before Period 5",
-        startTime: "14:26",
+        startTime: "13:38",
         duration: 4,
       },
       {
         name: "Period 5",
+        startTime: "13:42",
+        duration: 8,
+      },
+      {
+        name: "Before Period 6",
+        startTime: "13:50",
+        duration: 4,
+      },
+      {
+        name: "Period 6",
+        startTime: "13:54",
+        duration: 8,
+      },
+      {
+        name: "Before Period 7",
+        startTime: "14:02",
+        duration: 4,
+      },
+      {
+        name: "Period 7",
+        startTime: "14:06",
+        duration: 8,
+      },
+      {
+        name: "Before Period 8",
+        startTime: "14:14",
+        duration: 4,
+      },
+      {
+        name: "Period 8",
+        startTime: "14:18",
+        duration: 8,
+      },
+      {
+        name: "Before Period 9",
+        startTime: "14:26",
+        duration: 4,
+      },
+      {
+        name: "Period 9",
         startTime: "14:30",
-        duration: 20,
+        duration: 8,
+      },
+      {
+        name: "Before Period 10",
+        startTime: "14:38",
+        duration: 4,
+      },
+      {
+        name: "Period 10",
+        startTime: "14:42",
+        duration: 8,
       },
       {
         name: "After School",
         startTime: "14:50",
-        duration: 180,
+        duration: 549,
       },
     ],
   },
+
   SAT: {
     scheduleType: "sat",
     scheduleName: "SAT Schedule",
