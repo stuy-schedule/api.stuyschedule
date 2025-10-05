@@ -30,7 +30,7 @@ const WEEKLY_SCHEDULE: Schedule = {
   scheduleType: "week",
   days: [
     {
-      day: "October 5, 2025",
+      day: "October 6, 2025",
       bell: BellType.REGULAR,
       block: Block.B1,
       testing: "Science Testing",
@@ -38,7 +38,7 @@ const WEEKLY_SCHEDULE: Schedule = {
     },
 
     {
-      day: "October 6, 2025",
+      day: "October 7, 2025",
       bell: BellType.REGULAR,
       block: Block.A1,
       testing: "WL, ELA, Health Testing",
@@ -46,7 +46,7 @@ const WEEKLY_SCHEDULE: Schedule = {
     },
 
     {
-      day: "October 7, 2025",
+      day: "October 8, 2025",
       bell: BellType.CONFERENCE,
       block: Block.B2,
       testing: "Math, Music, Art Testing",
@@ -54,7 +54,7 @@ const WEEKLY_SCHEDULE: Schedule = {
     },
 
     {
-      day: "October 8, 2025",
+      day: "October 9, 2025",
       bell: BellType.REGULAR,
       block: Block.A2,
       testing: "CS, SS, Tech Testing",
@@ -62,7 +62,7 @@ const WEEKLY_SCHEDULE: Schedule = {
     },
 
     {
-      day: "October 9, 2025",
+      day: "October 10, 2025",
       bell: BellType.PSAT,
       block: null,
       testing: "No Testing",
