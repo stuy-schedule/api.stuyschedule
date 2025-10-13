@@ -30,43 +30,43 @@ const WEEKLY_SCHEDULE: Schedule = {
   scheduleType: "week",
   days: [
     {
-      day: "October 6, 2025",
+      day: "October 13, 2025",
+      bell: null,
+      block: null,
+      testing: "No School",
+      announcement: null,
+    },
+
+    {
+      day: "October 14, 2025",
       bell: BellType.REGULAR,
-      block: Block.B1,
+      block: Block.B,
       testing: "Science Testing",
       announcement: null,
     },
 
     {
-      day: "October 7, 2025",
+      day: "October 15, 2025",
       bell: BellType.REGULAR,
       block: Block.A1,
-      testing: "WL, ELA, Health Testing",
+      testing: "Math, Music, Art, Technology Testing",
       announcement: null,
     },
 
     {
-      day: "October 8, 2025",
-      bell: BellType.CONFERENCE,
-      block: Block.B2,
-      testing: "Math, Music, Art Testing",
-      announcement: null,
-    },
-
-    {
-      day: "October 9, 2025",
+      day: "October 16, 2025",
       bell: BellType.REGULAR,
-      block: Block.A2,
-      testing: "CS, SS, Tech Testing",
+      block: Block.B1,
+      testing: "WL, ELA, CS, SS Testing",
       announcement: null,
     },
 
     {
-      day: "October 10, 2025",
+      day: "October 17, 2025",
       bell: BellType.PSAT,
       block: null,
       testing: "No Testing",
-      announcement: "PSAT testing. Good luck!",
+      announcement: "Good luck! Make sure to go to the career fair!",
     },
   ],
 };
