@@ -30,43 +30,43 @@ const WEEKLY_SCHEDULE: Schedule = {
   scheduleType: "week",
   days: [
     {
-      day: "October 13, 2025",
+      day: "October 20, 2025",
       bell: null,
       block: null,
       testing: "No School",
-      announcement: null,
+      announcement: "Observance of Diwali",
     },
 
     {
-      day: "October 14, 2025",
+      day: "October 21, 2025",
       bell: BellType.REGULAR,
-      block: Block.B,
+      block: Block.A1,
       testing: "Science Testing",
       announcement: null,
     },
 
     {
-      day: "October 15, 2025",
-      bell: BellType.REGULAR,
-      block: Block.A1,
-      testing: "Math, Music, Art, Technology Testing",
-      announcement: null,
-    },
-
-    {
-      day: "October 16, 2025",
+      day: "October 22, 2025",
       bell: BellType.REGULAR,
       block: Block.B1,
-      testing: "WL, ELA, CS, SS Testing",
+      testing: "WL, ELA, and Health Testing",
       announcement: null,
     },
 
     {
-      day: "October 17, 2025",
-      bell: BellType.PSAT,
-      block: null,
-      testing: "No Testing",
-      announcement: "Good luck! Make sure to go to the career fair!",
+      day: "October 23, 2025",
+      bell: BellType.REGULAR,
+      block: Block.A2,
+      testing: "Math, Music, and Art Testing",
+      announcement: null,
+    },
+
+    {
+      day: "October 24, 2025",
+      bell: BellType.REGULAR,
+      block: Block.B2,
+      testing: "CS, SS, and Technology Testing",
+      announcement: null,
     },
   ],
 };
