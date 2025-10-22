@@ -52,7 +52,6 @@ const WEEKLY_SCHEDULE: Schedule = {
       testing: "WL, ELA, and Health Testing",
       announcement: null,
     },
-
     {
       day: "October 23, 2025",
       bell: BellType.REGULAR,
