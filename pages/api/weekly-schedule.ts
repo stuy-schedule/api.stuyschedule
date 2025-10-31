@@ -62,7 +62,7 @@ const WEEKLY_SCHEDULE: Schedule = {
 
     {
       day: "October 31, 2025",
-      bell: BellType.REGULAR,
+      bell: BellType.EXTENDED_HOMEROOM,
       block: Block.A2,
       testing: "CS, SS, and Technology Testing",
       announcement: null,
