@@ -30,7 +30,7 @@ const WEEKLY_SCHEDULE: Schedule = {
   scheduleType: "week",
   days: [
     {
-      day: "November 10, 2025",
+      day: "November 17, 2025",
       bell: BellType.REGULAR,
       block: Block.B1,
       testing: "Science Testing",
@@ -38,34 +38,34 @@ const WEEKLY_SCHEDULE: Schedule = {
     },
 
     {
-      day: "November 11, 2025",
-      bell: null,
-      block: null,
-      testing: "No School",
-      announcement: "Veterans Day - No School",
+      day: "November 18, 2025",
+      bell: BellType.REGULAR,
+      block: Block.A1,
+      testing: "WL, ELA, & Health Testing",
+      announcement: null,
     },
 
     {
-      day: "November 12, 2025",
-      bell: BellType.REGULAR,
-      block: Block.A1,
-      testing: "No Testing",
-      announcement: null,
-    },
-    {
-      day: "November 13, 2025",
+      day: "November 19, 2025",
       bell: BellType.REGULAR,
       block: Block.B2,
       testing: "Math, Music, Technology, and Art Testing",
       announcement: null,
     },
-
     {
-      day: "November 14, 2025",
+      day: "November 20, 2025",
       bell: BellType.REGULAR,
       block: Block.A2,
-      testing: "WL, ELA, CS, SS, and Health Testing",
+      testing: "CS, SS, & Tech Testing",
       announcement: null,
+    },
+
+    {
+      day: "November 21, 2025",
+      bell: BellType.PTC,
+      block: Block.B,
+      testing: "No Testing",
+      announcement: "Parent Teacher Conferences!",
     },
   ],
 };
