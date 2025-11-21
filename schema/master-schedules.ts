@@ -1077,178 +1077,6 @@ const BellType = {
     ],
   },
 
-  ADMINISTRATIVE_HOMEROOM_DISTRIBUTION: {
-    scheduleType: "administrativehomeroomdistribution",
-    scheduleName: "Administrative Homeroom Distribution Schedule",
-    schedule: [
-      {
-        name: "Before Period 1",
-        startTime: "7:00",
-        duration: 60, // same pre-school buffer as other schedules
-      },
-      {
-        name: "Period 1",
-        startTime: "8:00",
-        duration: 36, // 8:00–8:36
-      },
-      {
-        name: "Administrative Distribution 1",
-        startTime: "8:36",
-        duration: 5, // 8:36–8:41
-      },
-      {
-        name: "Before Period 2",
-        startTime: "8:41",
-        duration: 4, // 8:41–8:45
-      },
-      {
-        name: "Period 2",
-        startTime: "8:45",
-        duration: 35, // 8:45–9:20
-      },
-      {
-        name: "Before Period 3",
-        startTime: "9:20",
-        duration: 5, // 9:20–9:25
-      },
-      {
-        name: "Setup for Period 3",
-        startTime: "9:25",
-        duration: 4, // 9:25–9:29
-      },
-      {
-        name: "Period 3",
-        startTime: "9:29",
-        duration: 34, // 9:29–10:03
-      },
-      {
-        name: "Before Distribution Block",
-        startTime: "10:03",
-        duration: 5, // 10:03–10:08
-      },
-      {
-        name: "Distribution Setup",
-        startTime: "10:08",
-        duration: 4, // 10:08–10:12
-      },
-      {
-        name: "Administrative Distribution (Mid)",
-        startTime: "10:12",
-        duration: 21, // 10:12–10:33
-      },
-      {
-        name: "Before Period 4",
-        startTime: "10:33",
-        duration: 4, // 10:33–10:37
-      },
-      {
-        name: "Period 4",
-        startTime: "10:37",
-        duration: 34, // 10:37–11:11
-      },
-      {
-        name: "Before Period 5",
-        startTime: "11:11",
-        duration: 5, // 11:11–11:16
-      },
-      {
-        name: "Setup for Period 5",
-        startTime: "11:16",
-        duration: 4, // 11:16–11:20
-      },
-      {
-        name: "Period 5",
-        startTime: "11:20",
-        duration: 34, // 11:20–11:54
-      },
-      {
-        name: "Before Period 6",
-        startTime: "11:54",
-        duration: 5, // 11:54–11:59
-      },
-      {
-        name: "Setup for Period 6",
-        startTime: "11:59",
-        duration: 4, // 11:59–12:03
-      },
-      {
-        name: "Period 6",
-        startTime: "12:03",
-        duration: 34, // 12:03–12:37
-      },
-      {
-        name: "Before Period 7",
-        startTime: "12:37",
-        duration: 5, // 12:37–12:42
-      },
-      {
-        name: "Setup for Period 7",
-        startTime: "12:42",
-        duration: 4, // 12:42–12:46
-      },
-      {
-        name: "Period 7",
-        startTime: "12:46",
-        duration: 34, // 12:46–1:20
-      },
-      {
-        name: "Before Period 8",
-        startTime: "13:20",
-        duration: 5, // 1:20–1:25
-      },
-      {
-        name: "Setup for Period 8",
-        startTime: "13:25",
-        duration: 4, // 1:25–1:29
-      },
-      {
-        name: "Period 8",
-        startTime: "13:29",
-        duration: 34, // 1:29–2:03
-      },
-      {
-        name: "Before Period 9",
-        startTime: "14:03",
-        duration: 5, // 2:03–2:08
-      },
-      {
-        name: "Setup for Period 9",
-        startTime: "14:08",
-        duration: 4, // 2:08–2:12
-      },
-      {
-        name: "Period 9",
-        startTime: "14:12",
-        duration: 34, // 2:12–2:46
-      },
-      {
-        name: "Setup for Period 10 (part 1)",
-        startTime: "14:46",
-        duration: 4, // 2:46–2:50
-      },
-      {
-        name: "Setup for Period 10 (part 2)",
-        startTime: "14:50",
-        duration: 5, // 2:50–2:55
-      },
-      {
-        name: "Before Period 10",
-        startTime: "14:55",
-        duration: 35, // 2:55–3:30
-      },
-      {
-        name: "Period 10",
-        startTime: "15:30",
-        duration: 5, // 3:30–3:35
-      },
-      {
-        name: "After School",
-        startTime: "15:35",
-        duration: 504,
-      },
-    ],
-  },
-
   PTC: {
     scheduleType: "ptc",
     scheduleName: "PTC Schedule",
@@ -1256,112 +1084,107 @@ const BellType = {
       {
         name: "Before School",
         startTime: "7:30",
-        duration: 45, // 7:30–8:15
+        duration: 45,
       },
       {
         name: "Period 1",
         startTime: "8:15",
-        duration: 15, // 8:15–8:30
+        duration: 20,
       },
       {
         name: "Before Period 2",
-        startTime: "8:30",
-        duration: 9, // 8:30–8:39
+        startTime: "8:35",
+        duration: 4,
       },
       {
         name: "Period 2",
         startTime: "8:39",
-        duration: 15, // 8:39–8:54
+        duration: 20,
       },
       {
         name: "Before Period 3",
-        startTime: "8:54",
-        duration: 9, // 8:54–9:03
+        startTime: "8:59",
+        duration: 4,
       },
       {
         name: "Period 3",
         startTime: "9:03",
-        duration: 15, // 9:03–9:18
+        duration: 20,
       },
       {
         name: "Before Period 4",
-        startTime: "9:18",
-        duration: 9, // 9:18–9:27
+        startTime: "9:23",
+        duration: 4,
       },
       {
         name: "Period 4",
         startTime: "9:27",
-        duration: 15, // 9:27–9:42
+        duration: 20,
       },
       {
         name: "Before Period 5",
-        startTime: "9:42",
-        duration: 9, // 9:42–9:51
+        startTime: "9:47",
+        duration: 4,
       },
       {
         name: "Period 5",
         startTime: "9:51",
-        duration: 15, // 9:51–10:06
+        duration: 20,
       },
       {
         name: "Before Period 6",
-        startTime: "10:06",
-        duration: 9, // 10:06–10:15
+        startTime: "10:11",
+        duration: 4,
       },
       {
         name: "Period 6",
         startTime: "10:15",
-        duration: 15, // 10:15–10:30
+        duration: 20,
       },
       {
         name: "Before Period 7",
-        startTime: "10:30",
-        duration: 9, // 10:30–10:39
+        startTime: "10:35",
+        duration: 4,
       },
       {
         name: "Period 7",
         startTime: "10:39",
-        duration: 15, // 10:39–10:54
+        duration: 20,
       },
       {
         name: "Before Period 8",
-        startTime: "10:54",
-        duration: 9, // 10:54–11:03
+        startTime: "10:59",
+        duration: 4,
       },
       {
         name: "Period 8",
         startTime: "11:03",
-        duration: 15, // 11:03–11:18
+        duration: 20,
       },
       {
         name: "Before Period 9",
-        startTime: "11:18",
-        duration: 9, // 11:18–11:27
+        startTime: "11:23",
+        duration: 4,
       },
       {
         name: "Period 9",
         startTime: "11:27",
-        duration: 15, // 11:27–11:42
+        duration: 20,
       },
       {
         name: "Before Period 10",
-        startTime: "11:42",
-        duration: 9, // 11:42–11:51
+        startTime: "11:47",
+        duration: 4,
       },
       {
         name: "Period 10",
         startTime: "11:51",
-        duration: 15, // 11:51–12:06
-      },
-      {
-        name: "Before After School",
-        startTime: "12:06",
-        duration: 5, // 12:06–12:11
+        duration: 20,
       },
       {
         name: "After School",
         startTime: "12:11",
-        duration: 708, // 12:11–23:59
+        duration: 708,
       },
     ],
   },
