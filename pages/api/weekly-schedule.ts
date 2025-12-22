@@ -30,42 +30,42 @@ const WEEKLY_SCHEDULE: Schedule = {
   scheduleType: "week",
   days: [
     {
-      day: "December 15, 2025",
-      bell: BellType.REGULAR,
-      block: Block.B,
-      testing: "Science Testing",
-      announcement: null,
-    },
-
-    {
-      day: "December 16, 2025",
+      day: "December 22, 2025",
       bell: BellType.REGULAR,
       block: Block.A1,
-      testing: "Science Testing",
+      testing: "No Testing",
       announcement: null,
     },
 
     {
-      day: "December 17, 2025",
-      bell: BellType.CONFERENCE,
+      day: "December 23, 2025",
+      bell: BellType.REGULAR,
       block: Block.B1,
-      testing: "WL, ELA, and Health Testing",
-      announcement: null,
-    },
-    {
-      day: "December 18, 2025",
-      bell: BellType.REGULAR,
-      block: Block.A2,
-      testing: "Math, Music, and Art Testing",
+      testing: "No Testing",
       announcement: null,
     },
 
     {
-      day: "December 19, 2025",
-      bell: BellType.REGULAR,
-      block: Block.B2,
-      testing: "CS, SS, and Technology Testing",
-      announcement: null,
+      day: "December 24, 2025",
+      bell: null,
+      block: null,
+      testing: null,
+      announcement: "Winter Break - No School",
+    },
+    {
+      day: "December 25, 2025",
+      bell: null,
+      block: null,
+      testing: null,
+      announcement: "Winter Break - No School",
+    },
+
+    {
+      day: "December 26, 2025",
+      bell: null,
+      block: null,
+      testing: null,
+      announcement: "Winter Break - No School",
     },
   ],
 };
