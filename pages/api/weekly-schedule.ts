@@ -47,7 +47,7 @@ const WEEKLY_SCHEDULE: Schedule = {
 
     {
       day: "January 7, 2026",
-      bell: BellType.CONFERENCE,
+      bell: BellType.REGULAR,
       block: Block.A1,
       testing: "WL, ELA, & Health Testing",
       announcement: null,
