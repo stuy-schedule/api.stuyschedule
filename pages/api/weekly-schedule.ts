@@ -30,7 +30,7 @@ const WEEKLY_SCHEDULE: Schedule = {
   scheduleType: "week",
   days: [
     {
-      day: "March 16, 2026",
+      day: "March 23, 2026",
       bell: BellType.REGULAR,
       block: Block.B1,
       testing: "Science Testing",
@@ -38,7 +38,7 @@ const WEEKLY_SCHEDULE: Schedule = {
     },
 
     {
-      day: "March 17, 2026",
+      day: "March 24, 2026",
       bell: BellType.REGULAR,
       block: Block.A1,
       testing: "WL, ELA, Health Testing",
@@ -46,15 +46,15 @@ const WEEKLY_SCHEDULE: Schedule = {
     },
 
     {
-      day: "March 18, 2026",
-      bell: BellType.CONFERENCE,
+      day: "March 25, 2026",
+      bell: BellType.REGULAR,
       block: Block.B2,
       testing: "Math, Music, Art Testing",
       announcement: null,
     },
 
     {
-      day: "March 19, 2026",
+      day: "March 26, 2026",
       bell: BellType.REGULAR,
       block: Block.A2,
       testing: "CS, SS, Tech Testing",
@@ -62,11 +62,11 @@ const WEEKLY_SCHEDULE: Schedule = {
     },
 
     {
-      day: "March 20, 2026",
-      bell: null,
+      day: "March 27, 2026",
+      bell: BellType.SAT,
       block: null,
-      testing: "No School",
-      announcement: "In Observance of Eid al-Fitr",
+      testing: "Science Testing",
+      announcement: "SAT Day",
     },
   ],
 };
