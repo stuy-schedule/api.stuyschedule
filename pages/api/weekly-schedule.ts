@@ -30,43 +30,43 @@ const WEEKLY_SCHEDULE: Schedule = {
   scheduleType: "week",
   days: [
     {
-      day: "April 13, 2026",
+      day: "April 20, 2026",
       bell: BellType.REGULAR,
-      block: Block.B1,
-      testing: "No Testing",
-      announcement: null,
-    },
-
-    {
-      day: "April 14, 2026",
-      bell: BellType.REGULAR,
-      block: Block.A1,
+      block: Block.A,
       testing: "Science Testing",
       announcement: null,
     },
 
     {
-      day: "April 15, 2026",
+      day: "April 21, 2026",
+      bell: BellType.REGULAR,
+      block: Block.B1,
+      testing: "Science Testing",
+      announcement: null,
+    },
+
+    {
+      day: "April 22, 2026",
+      bell: BellType.CONFERENCE,
+      block: Block.A1,
+      testing: "WL, ELA, Health Testing",
+      announcement: null,
+    },
+
+    {
+      day: "April 23, 2026",
       bell: BellType.REGULAR,
       block: Block.B2,
-      testing: "Math, Music, Art, Tech Testing",
+      testing: "Math, Music, Art Testing",
       announcement: null,
     },
 
     {
-      day: "April 16, 2026",
+      day: "April 24, 2026",
       bell: BellType.REGULAR,
       block: Block.A2,
-      testing: "WL, ELA, CS, SS, Health Testing",
+      testing: "CS, SS, Tech Testing",
       announcement: null,
-    },
-
-    {
-      day: "April 17, 2026",
-      bell: BellType.PTC,
-      block: Block.B,
-      testing: "No Testing",
-      announcement: "Parent Teacher Conference",
     },
   ],
 };
