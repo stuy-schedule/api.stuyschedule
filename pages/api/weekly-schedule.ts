@@ -30,43 +30,43 @@ const WEEKLY_SCHEDULE: Schedule = {
   scheduleType: "week",
   days: [
     {
-      day: "April 20, 2026",
+      day: "April 27, 2026",
       bell: BellType.REGULAR,
-      block: Block.A,
+      block: Block.B,
       testing: "Science Testing",
       announcement: null,
     },
 
     {
-      day: "April 21, 2026",
+      day: "April 28, 2026",
       bell: BellType.REGULAR,
-      block: Block.B1,
-      testing: "Science Testing",
-      announcement: null,
-    },
-
-    {
-      day: "April 22, 2026",
-      bell: BellType.CONFERENCE,
       block: Block.A1,
+      testing: "Science Testing",
+      announcement: null,
+    },
+
+    {
+      day: "April 29, 2026",
+      bell: BellType.CONFERENCE,
+      block: Block.B1,
       testing: "WL, ELA, Health Testing",
       announcement: null,
     },
 
     {
-      day: "April 23, 2026",
+      day: "April 30, 2026",
       bell: BellType.REGULAR,
-      block: Block.B2,
+      block: Block.A2,
       testing: "Math, Music, Art Testing",
       announcement: null,
     },
 
     {
-      day: "April 24, 2026",
+      day: "May 1, 2026",
       bell: BellType.REGULAR,
-      block: Block.A2,
+      block: Block.B2,
       testing: "CS, SS, Tech Testing",
-      announcement: null,
+      announcement: "End of Marking Period 2",
     },
   ],
 };
