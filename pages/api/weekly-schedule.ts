@@ -30,42 +30,42 @@ const WEEKLY_SCHEDULE: Schedule = {
   scheduleType: "week",
   days: [
     {
-      day: "May 18, 2026",
+      day: "May 25, 2026",
+      bell: null,
+      block: null,
+      testing: "None",
+      announcement: "Memorial Day",
+    },
+
+    {
+      day: "May 26, 2026",
       bell: BellType.REGULAR,
-      block: Block.A,
+      block: Block.B,
       testing: "Science Testing",
       announcement: null,
     },
 
     {
-      day: "May 19, 2026",
+      day: "May 27, 2026",
+      bell: null,
+      block: null,
+      testing: "None",
+      announcement: "In Observance of Eid al-Adha",
+    },
+
+    {
+      day: "May 28, 2026",
+      bell: BellType.REGULAR,
+      block: Block.A1,
+      testing: "Math, Music, Art, Tech Testing",
+      announcement: null,
+    },
+
+    {
+      day: "May 29, 2026",
       bell: BellType.REGULAR,
       block: Block.B1,
-      testing: "Science Testing",
-      announcement: null,
-    },
-
-    {
-      day: "May 20, 2026",
-      bell: BellType.CONFERENCE,
-      block: Block.A1,
-      testing: "WL, ELA, Health Testing",
-      announcement: null,
-    },
-
-    {
-      day: "May 21, 2026",
-      bell: BellType.REGULAR,
-      block: Block.B2,
-      testing: "Math, Music, Art Testing",
-      announcement: null,
-    },
-
-    {
-      day: "May 22, 2026",
-      bell: BellType.REGULAR,
-      block: Block.A2,
-      testing: "CS, SS, Tech Testing",
+      testing: "WL, ELA, CS, SS, Health",
       announcement: null,
     },
   ],
