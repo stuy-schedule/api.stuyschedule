@@ -1188,6 +1188,117 @@ const BellType = {
       },
     ],
   },
+  ELECTIONS: {
+    scheduleType: "elections",
+    scheduleName: "Elections Schedule",
+    schedule: [
+      {
+        name: "Before Period 1",
+        startTime: "7:00",
+        duration: 60,
+      },
+      {
+        name: "Period 1",
+        startTime: "8:00",
+        duration: 40,
+      },
+      {
+        name: "Before Period 2",
+        startTime: "8:40",
+        duration: 5,
+      },
+      {
+        name: "Period 2",
+        startTime: "8:45",
+        duration: 40,
+      },
+      {
+        name: "Before Period 3",
+        startTime: "9:25",
+        duration: 4,
+      },
+      {
+        name: "Period 3",
+        startTime: "9:29",
+        duration: 53,
+      },
+      {
+        name: "Before Period 4",
+        startTime: "10:22",
+        duration: 5,
+      },
+      {
+        name: "Period 4",
+        startTime: "10:27",
+        duration: 40,
+      },
+      {
+        name: "Before Period 5",
+        startTime: "11:07",
+        duration: 5,
+      },
+      {
+        name: "Period 5",
+        startTime: "11:12",
+        duration: 40,
+      },
+      {
+        name: "Before Period 6",
+        startTime: "11:52",
+        duration: 5,
+      },
+      {
+        name: "Period 6",
+        startTime: "11:57",
+        duration: 40,
+      },
+      {
+        name: "Before Period 7",
+        startTime: "12:37",
+        duration: 5,
+      },
+      {
+        name: "Period 7",
+        startTime: "12:42",
+        duration: 40,
+      },
+      {
+        name: "Before Period 8",
+        startTime: "13:22",
+        duration: 4,
+      },
+      {
+        name: "Period 8",
+        startTime: "13:26",
+        duration: 40,
+      },
+      {
+        name: "Before Period 9",
+        startTime: "14:06",
+        duration: 4,
+      },
+      {
+        name: "Period 9",
+        startTime: "14:10",
+        duration: 40,
+      },
+      {
+        name: "Before Period 10",
+        startTime: "14:50",
+        duration: 5,
+      },
+      {
+        name: "Period 10",
+        startTime: "14:55",
+        duration: 40,
+      },
+      {
+        name: "After School",
+        startTime: "15:35",
+        duration: 504,
+      },
+    ],
+  },
 };
 
 export default BellType;
