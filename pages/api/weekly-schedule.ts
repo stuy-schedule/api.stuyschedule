@@ -31,8 +31,8 @@ const WEEKLY_SCHEDULE: Schedule = {
   days: [
     {
       day: "June 1, 2026",
-      bell: BELLTYPE.REGULAR,
-      block: BLOCK.A1,
+      bell: BellType.REGULAR,
+      block: Block.A1,
       testing: "Science Testing",
       announcement: null,
     },
@@ -47,8 +47,8 @@ const WEEKLY_SCHEDULE: Schedule = {
 
     {
       day: "June 3, 2026",
-      bell: BELLTYPE.ELECTIONS,
-      block: BLOCK.A2,
+      bell: BellType.ELECTIONS,
+      block: Block.A2,
       testing: "Math, Music, Art Testing",
       announcement: "Student Union Caucus Elections",
     },
