@@ -30,43 +30,43 @@ const WEEKLY_SCHEDULE: Schedule = {
   scheduleType: "week",
   days: [
     {
-      day: "June 8, 2026",
+      day: "June 15, 2026",
       bell: BellType.REGULAR,
-      block: Block.A,
-      testing: "Science Testing",
+      block: Block.B2,
+      testing: "Makeup Exams",
       announcement: null,
     },
 
     {
-      day: "June 9, 2026",
-      bell: null,
-      block: null,
-      testing: "WL, ELA, Health Testing",
-      announcement: "ELA & Chem Regents",
+      day: "June 16, 2026",
+      bell: BellType.REGULAR,
+      block: Block.A2,
+      testing: "Makeup Exams",
+      announcement: null,
     },
 
     {
-      day: "June 10, 2026",
+      day: "June 17, 2026",
       bell: null,
       block: null,
       testing: "Math, Music, Art Testing",
-      announcement: "Algebra 2 & Physics Regents",
+      announcement: "Algebra 1 & Global History Regents",
     },
 
     {
-      day: "June 11, 2026",
-      bell: BellType.REGULAR,
-      block: Block.B2,
+      day: "June 18, 2026",
+      bell: null,
+      block: null,
       testing: "Math, Music, Art, Tech Testing",
-      announcement: null,
+      announcement: "Biology & Living Regents",
     },
 
     {
-      day: "June 12, 2026",
-      bell: BellType.REGULAR,
-      block: Block.A2,
+      day: "June 19, 2026",
+      bell: null,
+      block: null,
       testing: "WL, ELA, CS, SS, Health Testing",
-      announcement: null,
+      announcement: "In Observance of Juneteeth",
     },
   ],
 };
