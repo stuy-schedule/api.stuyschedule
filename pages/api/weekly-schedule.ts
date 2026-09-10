@@ -54,19 +54,19 @@ const WEEKLY_SCHEDULE: Schedule = {
     },
 
     {
-      day: "June 18, 2026",
-      bell: null,
-      block: null,
-      testing: "Math, Music, Art, Tech Testing",
-      announcement: "Biology & Living Regents",
+      day: "September 10, 2026",
+      bell: BellType.FIRSTWEEK,
+      block: Block.A,
+      testing: null,
+      announcement: "First day of school!",
     },
 
     {
-      day: "June 19, 2026",
-      bell: null,
-      block: null,
-      testing: "WL, ELA, CS, SS, Health Testing",
-      announcement: "In Observance of Juneteeth",
+      day: "September 11, 2026",
+      bell: BellType.REGULAR,
+      block: Block.B,
+      testing: null,
+      announcement: null,
     },
   ],
 };
