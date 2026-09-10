@@ -55,7 +55,7 @@ const WEEKLY_SCHEDULE: Schedule = {
 
     {
       day: "September 10, 2026",
-      bell: BellType.FIRSTWEEK,
+      bell: BellType.FIRST_WEEK,
       block: Block.A,
       testing: null,
       announcement: "First day of school!",
