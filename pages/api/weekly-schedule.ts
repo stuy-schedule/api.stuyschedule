@@ -30,42 +30,42 @@ const WEEKLY_SCHEDULE: Schedule = {
   scheduleType: "week",
   days: [
     {
-      day: "June 15, 2026",
+      day: "September 14, 2026",
+      bell: BellType.REGULAR,
+      block: Block.A,
+      testing: "Science Testing",
+      announcement: null,
+    },
+
+    {
+      day: "September 15, 2026",
+      bell: BellType.REGULAR,
+      block: Block.B1,
+      testing: "Science Testing",
+      announcement: null,
+    },
+
+    {
+      day: "September 16, 2026",
+      bell: BellType.REGULAR,
+      block: Block.A1,
+      testing: "WL, ELA, & Health Testing",
+      announcement: null,
+    },
+
+    {
+      day: "September 17, 2026",
       bell: BellType.REGULAR,
       block: Block.B2,
-      testing: "Makeup Exams",
+      testing: "Math, Music, & Art Testing",
       announcement: null,
     },
 
     {
-      day: "June 16, 2026",
+      day: "September 18, 2026",
       bell: BellType.REGULAR,
       block: Block.A2,
-      testing: "Makeup Exams",
-      announcement: null,
-    },
-
-    {
-      day: "June 17, 2026",
-      bell: null,
-      block: null,
-      testing: "Math, Music, Art Testing",
-      announcement: "Algebra 1 & Global History Regents",
-    },
-
-    {
-      day: "September 10, 2026",
-      bell: BellType.FIRST_WEEK,
-      block: Block.A,
-      testing: null,
-      announcement: "First day of school!",
-    },
-
-    {
-      day: "September 11, 2026",
-      bell: BellType.REGULAR,
-      block: Block.B,
-      testing: null,
+      testing: "CS, SS, & Tech Testing",
       announcement: null,
     },
   ],
