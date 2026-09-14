@@ -33,7 +33,7 @@ const WEEKLY_SCHEDULE: Schedule = {
       day: "September 14, 2026",
       bell: BellType.REGULAR,
       block: Block.A,
-      testing: "Science Testing",
+      testing: "No Testing",
       announcement: null,
     },
 
@@ -41,7 +41,7 @@ const WEEKLY_SCHEDULE: Schedule = {
       day: "September 15, 2026",
       bell: BellType.REGULAR,
       block: Block.B1,
-      testing: "Science Testing",
+      testing: "No Testing",
       announcement: null,
     },
 
@@ -49,7 +49,7 @@ const WEEKLY_SCHEDULE: Schedule = {
       day: "September 16, 2026",
       bell: BellType.REGULAR,
       block: Block.A1,
-      testing: "WL, ELA, & Health Testing",
+      testing: "No Testing",
       announcement: null,
     },
 
@@ -57,7 +57,7 @@ const WEEKLY_SCHEDULE: Schedule = {
       day: "September 17, 2026",
       bell: BellType.REGULAR,
       block: Block.B2,
-      testing: "Math, Music, & Art Testing",
+      testing: "No Testing",
       announcement: null,
     },
 
@@ -65,7 +65,7 @@ const WEEKLY_SCHEDULE: Schedule = {
       day: "September 18, 2026",
       bell: BellType.REGULAR,
       block: Block.A2,
-      testing: "CS, SS, & Tech Testing",
+      testing: "No Testing",
       announcement: null,
     },
   ],
