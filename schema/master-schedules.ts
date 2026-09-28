@@ -1299,6 +1299,132 @@ const BellType = {
       },
     ],
   },
+  ADMINISTRATIVE_DISTRIBUTION: {
+    scheduleType: "administrativeDistribution",
+    scheduleName: "Administrative Distribution Schedule",
+    schedule: [
+      {
+        name: "Before School",
+        startTime: "0:00",
+        duration: 420,
+      },
+      {
+        name: "Before Period 1",
+        startTime: "7:00",
+        duration: 60,
+      },
+      {
+        name: "Period 1",
+        startTime: "8:00",
+        duration: 41,
+      },
+      {
+        name: "Before Period 2",
+        startTime: "8:41",
+        duration: 4,
+      },
+      {
+        name: "Period 2",
+        startTime: "8:45",
+        duration: 40,
+      },
+      {
+        name: "Before Period 3",
+        startTime: "9:25",
+        duration: 4,
+      },
+      {
+        name: "Period 3",
+        startTime: "9:29",
+        duration: 39,
+      },
+      {
+        name: "Before Distribution",
+        startTime: "10:08",
+        duration: 4,
+      },
+      {
+        name: "Distribution",
+        startTime: "10:12",
+        duration: 21,
+      },
+      {
+        name: "Before Period 4",
+        startTime: "10:33",
+        duration: 4,
+      },
+      {
+        name: "Period 4",
+        startTime: "10:37",
+        duration: 39,
+      },
+      {
+        name: "Before Period 5",
+        startTime: "11:16",
+        duration: 4,
+      },
+      {
+        name: "Period 5",
+        startTime: "11:20",
+        duration: 39,
+      },
+      {
+        name: "Before Period 6",
+        startTime: "11:59",
+        duration: 4,
+      },
+      {
+        name: "Period 6",
+        startTime: "12:03",
+        duration: 39,
+      },
+      {
+        name: "Before Period 7",
+        startTime: "12:42",
+        duration: 4,
+      },
+      {
+        name: "Period 7",
+        startTime: "12:46",
+        duration: 39,
+      },
+      {
+        name: "Before Period 8",
+        startTime: "13:25",
+        duration: 4,
+      },
+      {
+        name: "Period 8",
+        startTime: "13:29",
+        duration: 39,
+      },
+      {
+        name: "Before Period 9",
+        startTime: "14:08",
+        duration: 4,
+      },
+      {
+        name: "Period 9",
+        startTime: "14:12",
+        duration: 38,
+      },
+      {
+        name: "Before Period 10",
+        startTime: "14:50",
+        duration: 5,
+      },
+      {
+        name: "Period 10",
+        startTime: "14:55",
+        duration: 40,
+      },
+      {
+        name: "After School",
+        startTime: "15:35",
+        duration: 504,
+      },
+    ],
+  },
 };
 
 export default BellType;
