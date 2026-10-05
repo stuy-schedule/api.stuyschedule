@@ -39,7 +39,7 @@ const WEEKLY_SCHEDULE: Schedule = {
 
     {
       day: "October 6, 2026",
-      bell: BellType.CONFERENCE,
+      bell: BellType.REGULAR,
       block: Block.B1,
       testing: "Math, Music, & Art Testing",
       announcement: null,
@@ -47,7 +47,7 @@ const WEEKLY_SCHEDULE: Schedule = {
 
     {
       day: "October 7, 2026",
-      bell: BellType.REGULAR,
+      bell: BellType.CONFERENCE,
       block: Block.A2,
       testing: "WL, ELA, & Health Testing",
       announcement: null,
