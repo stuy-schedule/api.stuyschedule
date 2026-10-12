@@ -38,34 +38,34 @@ const WEEKLY_SCHEDULE: Schedule = {
     },
 
     {
-      day: "October 6, 2026",
+      day: "October 13, 2026",
       bell: BellType.REGULAR,
       block: Block.B1,
-      testing: "Math, Music, & Art Testing",
+      testing: "Science & CS Testing",
       announcement: null,
     },
 
     {
-      day: "October 7, 2026",
-      bell: BellType.CONFERENCE,
-      block: Block.A2,
+      day: "October 14, 2026",
+      bell: BellType.REGULAR,
+      block: Block.A1,
       testing: "WL, ELA, & Health Testing",
       announcement: null,
     },
 
     {
-      day: "October 8, 2026",
+      day: "October 15, 2026",
       bell: BellType.REGULAR,
       block: Block.B2,
-      testing: "Social Studies & Technology Testing",
+      testing: "Math, Music, & Art Testing",
       announcement: null,
     },
 
     {
-      day: "October 9, 2026",
-      bell: BellType.PSAT,
-      block: Block.A,
-      testing: "PSAT",
+      day: "October 16, 2026",
+      bell: BellType.REGULAR,
+      block: Block.A2,
+      testing: "Social Studies & Technology Testing",
       announcement: null,
     },
   ],
