@@ -30,15 +30,7 @@ const WEEKLY_SCHEDULE: Schedule = {
   scheduleType: "week",
   days: [
     {
-      day: "October 26, 2026",
-      bell: BellType.REGULAR,
-      block: Block.B,
-      testing: "Science Testing",
-      announcement: null,
-    },
-
-    {
-      day: "October 27, 2026",
+      day: "November 2, 2026",
       bell: BellType.REGULAR,
       block: Block.A1,
       testing: "Science & CS Testing",
@@ -46,26 +38,34 @@ const WEEKLY_SCHEDULE: Schedule = {
     },
 
     {
-      day: "October 28, 2026",
+      day: "November 3, 2026",
+      bell: BellType.ELECTION_DAY,
+      block: Block.A,
+      testing: null,
+      announcement: "Remote Learning for Election Day",
+    },
+
+    {
+      day: "November 4, 2026",
       bell: BellType.REGULAR,
       block: Block.B1,
-      testing: "WL, ELA & Health Testing",
-      announcement: null,
+      testing: "Math, Music, Art & Technology Testing",
+      announcement: "MP1 Report Card Distribution",
     },
 
     {
-      day: "October 29, 2026",
+      day: "November 5, 2026",
       bell: BellType.REGULAR,
       block: Block.A2,
-      testing: "Math, Music & Art Testing",
+      testing: "No Testing",
       announcement: null,
     },
 
     {
-      day: "October 30, 2026",
-      bell: BellType.ADMINISTRATIVE_DISTRIBUTION,
+      day: "November 6, 2026",
+      bell: BellType.REGULAR,
       block: Block.B2,
-      testing: "Math, Music & Art Testing",
+      testing: "WL, ELA, Health & Social Studies Testing",
       announcement: null,
     },
   ],
